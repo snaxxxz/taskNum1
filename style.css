@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(/Шрифты/Nunito/Nunito-Medium.ttf);
+}
+html{
+    background-color: #FCFAF9E5;
+    margin: 0 auto;
+    width: 1440px;
+}
+.head{
+    background-color: #FCFAF9E5;
+    min-width: 1440px;
+    height: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    padding-left: 106px;
+    justify-content: start;
+    align-items: center;
+}
+.main-logo__header{
+    width: 132px;
+    margin-right: 120px;
+    height: 40px;
+    fill:#1B1F21;
+    transition: ease-in-out 0.3s;
+}
+.main-logo__header:hover{
+    width: 132px;
+    margin-right: 120px;
+    height: 40px;
+    fill:#DA3369;
+    transition: ease-in-out 0.2s;
+}
+.head_button{
+    margin: 0px;
+    display: flex;
+}
+.button_menu{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #E8E8E8;
+    background-color:#FCFAF9E5;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(1):hover{
+    background-color: #EC95B1;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(2):hover{
+    background-color: #A4CCFE;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(3):hover{
+    background-color: #D0B0FA;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(4):hover{
+    background-color: #BEDB39;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(5):hover{
+    background-color: #FFAD20;
+    transition: ease 0.5s;
+}
+.button_menu:nth-child(6):hover{
+    background-color: #AEDFD6;
+    transition: ease 0.5s;
+}
+
+
+.button_menu:last-child{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 146px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #E8E8E8;
+    background-color:#FCFAF9E5;
+    border-radius: 20px;
+}
+.textEbac__header-link{
+    font-family: "Nunito";
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-left: 27px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    position: relative;
+    text-decoration: none;
+}
+.textEbac__header-link::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: #BEDB39;
+}
+
+.textEbac__header-link:hover:before {
+	width: 170%;
+}
+
+.textEbac__header-link::before {
+	transition: width 0.35s;
+}
+
+.icon__header-link{
+    margin-left: 10px;
+}
