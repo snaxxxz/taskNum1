@@ -1,0 +1,78 @@
+/* TABLET */
+@media (max-width: 1279px){
+    html{
+        background-color: #FCFAF9E5;
+        margin: 0 auto;
+        
+        height: 300px;
+        max-width: 768px;
+    }
+    .head{
+        position: absolute;
+        width:768px;
+        padding: 0px;
+        margin: 0 auto;
+        top: 16px;
+        left: 0px;
+        right: 0px;
+        
+    }
+    .main-logo__header{
+        position: absolute;
+        top: 0px;
+        left: 28px;
+        margin-left: 4px;
+        margin-top: 0px;
+    }
+    .head_button{
+        position: relative;
+        width: auto;
+        font-size: 15px;
+        top: 62px;
+        right: 0px;
+        left: 31px;
+    }
+    .button_menu{
+        font-family: "Nunito";
+        margin-right: 12px;
+        font-size: 15px;
+        font-weight: 500;
+        width: max-content;
+    }
+    .button_menu:last-child{
+      margin: 0px;
+    }
+    .button_menu:nth-child(1){
+        margin-right: 11px;
+    }
+    .button_menu:nth-child(2){
+        margin-right: 10px;
+    }
+    .button_menu:nth-child(3){
+        margin-right: 10px;
+    }
+    .button_menu:nth-child(4){
+        margin-right: 11px;
+    }
+    .button_menu:nth-child(5){
+        margin-right: 11px;
+    }
+    .textEbac__header-link{
+       right: 62px;
+    }
+    .icon__header-link{
+        position: absolute;
+        left: 709px
+    }
+    .icon__header-search{
+        position: absolute;
+        left: 624px
+    }
+
+}
+/* MOBILE
+@media (max-width: 767px){
+    .head{
+        max-width: 0px;
+    }
+} */

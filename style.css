@@ -9,15 +9,16 @@ html{
 }
 .head{
     background-color: #FCFAF9E5;
-    min-width: 1440px;
+    width: auto;
     height: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
-    padding-left: 106px;
+    padding-left: 116px;
     justify-content: start;
     align-items: center;
 }
+
 .main-logo__header{
     width: 132px;
     margin-right: 120px;
@@ -40,9 +41,10 @@ html{
     font-family: "Nunito";
     font-weight: 500;
     font-size: 15px;
+    height: 37px;
     margin-left: 0px;
     margin-right: 9px;
-    padding-top: 8px;
+    padding-top: 7px;
     padding-bottom: 8px;
     padding-left: 18px;
     padding-right: 18px;
@@ -77,7 +79,6 @@ html{
     transition: ease 0.5s;
 }
 
-
 .button_menu:last-child{
     font-family: "Nunito";
     font-weight: 500;
@@ -92,6 +93,9 @@ html{
     background-color:#FCFAF9E5;
     border-radius: 20px;
 }
+.icon__header-search{
+    cursor: pointer;
+}
 .textEbac__header-link{
     font-family: "Nunito";
     font-size: 15px;
@@ -105,7 +109,6 @@ html{
 }
 .textEbac__header-link::before {
 	content: '';
-	position: absolute;
 	left: 0; bottom: -5px;
 	width: 0;
 	height: 1.5px;
@@ -122,4 +125,5 @@ html{
 
 .icon__header-link{
     margin-left: 10px;
+    cursor: pointer;
 }
