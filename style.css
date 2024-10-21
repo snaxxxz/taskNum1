@@ -2,6 +2,10 @@
     font-family: "Nunito";
     src: url(/Шрифты/Nunito/Nunito-Medium.ttf);
 }
+@font-face{
+    font-family: "ArchivoBlack-Regular";
+    src: url(/Шрифты/ArchivoBlack-Regular/ArchivoBlack-Regular.ttf);
+}
 html{
     background-color: #FCFAF9E5;
     margin: 0 auto;
@@ -9,12 +13,12 @@ html{
 }
 .head{
     background-color: #FCFAF9E5;
-    width: auto;
+    width: 1209px;
     height: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
-    padding-left: 116px;
+    margin-left: 116px;
     justify-content: start;
     align-items: center;
 }
@@ -127,3 +131,188 @@ html{
     margin-left: 10px;
     cursor: pointer;
 }
+
+
+/* main-container */
+.main-container{
+    width: 1440px;
+    margin-top: 80px;
+}
+
+.first-info-container{
+    display: flex;
+    
+    width: 1208px;
+    height: 560px;
+    background-color: #FCFAF9E5;
+    margin-left: 116px;
+    margin-right: 100px;
+}
+.img-desktop1{
+    mask-image: url(/img/desktop-mask1.png);
+    width: 480px;
+    height: 560px;
+}
+.img-icon__transition{
+    position: absolute;
+    left: 655px;
+    width: 180px;
+    height: 180px;
+    transition: ease-in-out 1.5s;
+}
+.img-icon__transition:hover{
+    transform: rotate(550deg);
+}
+.info-card--first{
+    width: 688px;
+    height: 468px;
+    margin-top: 46px;
+    margin-left: 39px;
+}
+.info-card__button{
+    
+}
+.buttons__in-first-card{
+    color:#94AC23;
+    font-family: "Nunito";
+    margin-right: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 37px;
+    padding: 0px;
+    background-color:#FCFAF9E5;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.buttons__in-first-card:nth-child(1){
+    color: #1B1F21;
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 15px;
+    height: 37px;
+    margin-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #E8E8E8;
+    background-color:#BEDB39;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.mainText-info-card__first{
+    font-family: "ArchivoBlack-Regular";
+    font-size: 36px;
+    margin-top: 15px;
+    line-height: 44px;
+    margin-bottom: 0PX;
+}
+.text-info-card__first{
+    font-family: "Nunito";
+    color: #757778;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+.overTime__info-card--first{
+    display: flex;
+}
+.textOverTime__info-card{
+    font-size: 15px;
+    color: #AEAEAE;
+    font-family: "Nunito";
+    margin: 0 0 0 8px;
+}
+.iconCalendar__info-card{
+    margin-top: 2px;
+}
+.iconWatch__info-card{
+    margin-left: 25px;
+}
+.visibleTime__info-card{
+    font-family: "Nunito";
+    color: #AEAEAE;
+    font-size: 15px;
+    margin: 0 0 0 8px;
+}
+.readingArticle__link{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 5px;
+    font-family: "Nunito";
+    border: 1.5px solid;
+    background-color: #BEDB39;
+    box-sizing: content-box;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 10px 49px 10px 49px;
+    line-height: 28px;
+    Box-shadow:0px 0px 0px 5px #BEDB39;
+}
+
+
+
+
+
+.creeping-line__first{
+    margin: 0px;
+    position: absolute;
+    overflow-x: hidden;
+    width: 4000px;
+    justify-content: center;
+    left: 0px;
+}
+.text__creeping-line{
+    position: relative;
+    font-size: 70px;
+    font-size: sans-serif;
+    line-height: 1.3;
+    padding: 24px 0;
+    white-space: nowrap;
+    display: inline-block;
+    
+}
+.text__creeping-line1 {
+    animation: marquee1 4s infinite linear;
+}
+.text__creeping-line2 {
+    animation: marquee2 4s infinite linear;
+}
+/* .text__creeping-line3 {
+    animation: marquee2 2s infinite linear;
+    animation-delay: -20s;
+}
+.text__creeping-line4 {
+    animation: marquee2 20s infinite linear;
+    animation-delay: -0s;
+}  */
+
+@keyframes marquee1 {
+    0% {
+        transform: translateX(2200px);
+    }
+    100% {
+        transform: translateX(-900px);
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translateX(2200px);
+    }
+    100% {
+        transform: translateX(-800px);
+    }
+    
+}
+/* @keyframes marquee3 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+} */
