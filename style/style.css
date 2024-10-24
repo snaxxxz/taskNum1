@@ -907,7 +907,8 @@ header{
     margin: 0 auto;
     width: 1440px;
     margin-top: 24px;
-    background-color: #F2F2F2;
+    margin-bottom: 135px;
+    background-color: #FCFAF9;
 }
 .suscribe__block{
     margin: 0 0 0 116px;
@@ -1120,4 +1121,67 @@ input[type="checkbox"]:checked {
     left: 392px; 
     width: 120px;
     height: 120px;
+}
+
+@keyframes ticker3 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+} 
+.creeping-line__Descuento{
+    position: relative;
+    margin: 0px;
+    background: #DA3369;
+    font-family: system-ui;
+    font-size: 24px;
+    width: auto;
+    height: 120px;
+    overflow: hidden;
+}   
+.creeping-line__inDescuento{
+    display: flex;
+    width: fit-content;
+    animation: ticker3 6s linear infinite reverse;
+    -webkit-transform-style: preserve-3d;
+}
+.creeping-line__itemDescuento{
+    font-family: "ArchivoBlack-Regular";
+    color: #1B1F21;
+    font-size: 58px;
+    font-weight: 900;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    -webkit-backface-visibility: hidden; 
+}
+/* подвал */
+footer{
+    height: 649px;
+    background-color: #1B1F21;
+}
+.main-container--footer__block{
+    display: flex;
+    padding: 64px 0 80px 0;
+    margin: auto;
+    width: 1205px;
+    height: 505px;
+    background-color: #1B1F21;
+}
+.upInfo-container--footer__block{
+    display: flex;
+    flex-direction: column;
+}
+.logo-container--footer__block{
+    display: flex;
+    justify-content: space-between;
+    width: 352px;
+    height: 268px;
+}
+.logoEbac_footer{
+    width: 224px;
+    height: 82px;
+}
+.logoHolon_footer{
+    padding: 2px 1px 0 0;
+    max-width: 80px;
+    max-height: 80px;
 }
