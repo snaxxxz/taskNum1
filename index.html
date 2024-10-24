@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style-responsive.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/style-responsive.css">
     <title>Document</title>
 </head>
 <body>
@@ -390,11 +390,11 @@
                                  <h5 class="nameHuman__inBlock">Consuela <br> Zacatelco</h5>
                                  <p class="proffHuman_inBlock">Empresario graduado de la...</p>
                              </div>
-                         </div>
-                         <h4 class="centralText__inBlock">
+                        </div>
+                        <h4 class="centralText__inBlock">
                             Ilustración Digital: <br> 3 diferentes <br> estilos de diseño
-                         </h4>
-                         <div class="lowerArea">
+                        </h4>
+                        <div class="lowerArea">
                             <div class="firstPiece">
                                 <p class="unnecessaryInformation__inBlock"> Próximamente</p>
                                 <p class="unnecessaryInformation__inBlock">Demonstração</p>
@@ -411,7 +411,7 @@
                                     <p class="time__block"> 19:00</p>
                                 </div>
                             </div>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -434,6 +434,40 @@
             <span class="creeping-line__itemSuscribiete">Suscribiete<img class="icon-stars__in-ticker" src="/img/stars.png" alt=""></span>
         </div>
     </div>
+    <div class="main-container__Sub">
+        <div class="suscribe__block" id="suscribe__block">
+            <div class="mainInfo-suscribe__block">
+              <div class="all-textSuscribe__block">
+                <h3 class="mainTextSuscribe__block">
+                  Suscríbete a nuestra <br>newsletter para no perderte <br> nada nuevo
+                </h3>
+                <p class="textSuscribe__block">
+                  Tendencia en el mercado laboral: conozca esta profesión que transforma <br> la experiencia del Usuario a través de elementos textuales.
+                </p>
+              </div>
+              <div class="status-menuSuscribe__block" id="SuscribieteEmailBlocklOpenClose">
+                <input class=btn-input__Suscribe__block type="email" id="emailInput" placeholder="Su correo electrónico">
+                <button class="btnEmail__Suscribe__block" id="submitBtn">Enviar</button>
+                <div class="workingCondition">
+                    <input type="checkbox" id="readConfirmation" checked> 
+                    <label class="styleCheck_Agreement" for="readConfirmation"><p class="userAgreement">Confirmo que he leído, acepto y entiendo los <u>términos y condiciones</u>, así como el <u>aviso de privacidad</u></p> </label>
+                </div>
+                <p class="textError" id="validationMessage">Formato de email inválido, verifique a ortografia</p>
+                <img class="iconOk" id="iconOk" src="/img/ok.png" alt="">
+                <img class="iconError" id="iconError" src="/img/Error.png" alt="">
+              </div>
+                <div class="statusEnviado" id="statusEnviado">
+                    <p class="textStatus">Fantástico! Espera La primera carta</p>
+                    <img src="/img/newSletter.png" alt="" class="icon-newSletter">
+                </div>
+                
+            </div>
+            <div class="email-logoSuscribe__block">
+
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
 </body>
 </html>
 

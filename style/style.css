@@ -7,7 +7,7 @@
     src: url(/Шрифты/ArchivoBlack-Regular/ArchivoBlack-Regular.ttf);
 }
 html{
-    background-color: #FCFAF9;
+
     margin: 0px auto;
     padding: 0px;
 }
@@ -15,6 +15,7 @@ body{
     background-image: url(/img/Linebg.png),url(/img/Linebg2.png);
     background-position: center 126px, center 1353px;
     background-repeat: no-repeat,no-repeat;
+    background-color: #FCFAF9;
 }
 header{
     margin: 0 auto;
@@ -23,7 +24,7 @@ header{
 .head{
     margin: 0 auto;
     height: 40px;
-    padding-top: 16px;
+    padding-top: 8px;
     padding-bottom: 16px;
     display: flex;
     margin-left: 116px;
@@ -166,6 +167,7 @@ header{
 .img-icon__transition{
     position: absolute;
     margin-left: 300px;
+    bottom: 379px;
     width: 180px;
     height: 180px;
     transition: ease-in-out 1.5s;
@@ -215,8 +217,8 @@ header{
 .mainText-info-card__first{
     font-family: "ArchivoBlack-Regular";
     font-size: 36px;
-    margin-top: 15px;
-    line-height: 44px;
+    margin-top: 17px;
+    line-height: 43.5px;
     margin-bottom: 0PX;
 }
 .text-info-card__first{
@@ -670,7 +672,8 @@ header{
     100% { transform: translateX(-50%); }
 } 
 .creeping-line__Webinars{
-    margin-top: 126px;
+    position: relative;
+    top: 126px;
     background: #FFAD20;
     font-family: system-ui;
     font-size: 24px;
@@ -698,13 +701,13 @@ header{
 
 .WebinarsBlock{
     position: relative;
-    bottom: 146px;
-    background-image: url(/img/bg-webinars.png),url(/img/LinebfWebinCenter.png),url(/img/LinebfWebinLeft.png),url(/img/LinebfWebinright.png);
-    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
-    background-size:cover,cover,cover,cover;
-    background-position: center,center 100px,left 126px,right 126px;
+    bottom: 19px;
+    background-image:url(/img/bglineWebinars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: auto;
-    height: 1000px;
+    min-height: 1000px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -738,7 +741,7 @@ header{
 .cardsInWebinars__block{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 78px;
 }
 .card-itemWebinars__block{
     background-image: url(/img/LinebgForCard1.png);
@@ -872,7 +875,7 @@ header{
 } 
 .creeping-line__Suscribiete{
     position: relative;
-    bottom: 233px;
+    bottom: 105px;
     margin: 0px;
     background: #FE6D44;
     font-family: system-ui;
@@ -897,4 +900,224 @@ header{
     padding-bottom: 10px;
     white-space: nowrap;
     -webkit-backface-visibility: hidden; 
+}
+
+.main-container__Sub{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    margin-top: 24px;
+    background-color: #F2F2F2;
+}
+.suscribe__block{
+    margin: 0 0 0 116px;
+    position: relative;
+    display: flex;
+    mask-image: url(/img/Suscribe.png);
+    background-image: url(/img/LinebgSuscribe.png);
+    background-position: 89px -47px;
+    background-repeat: no-repeat;
+    background-size: 989.47px 725.2px;
+    background-color: #57ACBC;
+    width: 1208px;
+    height: 519px;
+}
+.mainInfo-suscribe__block{
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    height: 390px;
+    margin: 65px 64px 64px 104px;
+}
+.add-textSuscribe__block{
+    display: flex;
+    flex-direction: column; 
+}
+.mainTextSuscribe__block{
+    font-family: "ArchivoBlack-Regular";
+    font-weight: 400;
+    font-size: 36px;
+    color: #FCFAF9;
+    line-height: 43.3px;
+    margin: 0;
+}
+.textSuscribe__block{
+    font-family: "Nunito";
+    font-weight: 100;
+    color: #FCFAF9;
+    font-size: 17.9px;
+    line-height: 28.8px;
+    margin: 7px 0 0 0;
+    letter-spacing: 0px;
+}
+
+.email-logoSuscribe__block{
+    position: relative;
+    background-image: url(/img/illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 416px;
+    height: 519px;
+}
+.status-menuSuscribe__block{
+    display: block;
+}
+.btn-input__Suscribe__block{
+    margin-top: 89px;
+    width: 232px;
+    height: 30px;
+    border: 1px solid white;
+    padding: 9px 22px 7px 24px;
+    border-radius: 88px;
+    background-color: transparent;
+    margin-right: 11px;
+    transition: 1s ease;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+}
+.btn-input__Suscribe__block:focus{
+    transition: 1s ease;
+    margin-top: 89px;
+    width: 232px;
+    height: 30px;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 9px 22px 7px 24px;
+    border-radius: 88px;
+    background-color: transparent;
+    margin-right: 11px;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+}
+input::placeholder {
+    color: #E8E8E8;
+    font-size: 18px;
+    font-family: "Nunito";
+}
+input::placeholder:hover{
+    color: #020202;
+}
+input:focus{
+    outline: none;
+}
+
+.btnEmail__Suscribe__block{
+    margin-top: 89px;
+    font-size: 18px;
+    width: 280px;
+    height: 50px;
+    background-color: #FE6D44;
+    border: 1.5px solid transparent;
+    padding: 9px 24px;
+    border-radius: 88px;
+    color: #FCFAF9;
+    cursor: pointer;
+}
+.userAgreement{
+    font-family: "Nunito";
+    color:#FCFAF9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 18px;
+    cursor: pointer;
+    width: 526px;
+    letter-spacing: -0.1px;
+}
+#readConfirmation{
+    min-width: 24px;
+    height: 24px;
+    margin: 14px 0 0 0;
+    border-radius: 4px;
+    border: 0px transparent;
+}
+#readConfirmation::before{
+    min-width: 24px;
+    height: 24px;
+    margin: 0 0 0 0;
+    border-radius: 4px;
+    border: 0px transparent;
+}   
+.workingCondition{
+    display: flex;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Сбрасываем стандартный вид */
+    appearance: none; /* Сбрасываем стандартный вид */
+    background-color: #eee;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked::before { 
+    background-image: url(/img/image183\(Traced\).png);
+    background-repeat: no-repeat;
+    background-size: 13px,10px;
+    background-position: center;
+    content: "";
+    display: block;
+    min-width: 24px;
+    max-height: 24px;
+    background-color: #FCFAF9;
+    border-radius: 4px;
+    border: #FCFAF9 1px solid;
+    margin: 0px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ddd; 
+}
+.textError{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 0 0px;
+    width: 280px;
+    font-size: 13px;
+    bottom: 75px;
+    color: #FFFFFF;
+    display: none;
+}
+.iconOk{
+    display: none;
+    left: 240px;
+    bottom: 111px;
+    position: relative;
+    max-width: 25px;
+    max-height: 25px;
+
+}
+.iconError{
+    display: none;
+    left: 240px;
+    bottom: 127px;
+    position: relative;
+    max-width: 25px;
+    max-height: 25px;
+}
+.statusEnviado{
+    display: none;
+    position: relative;
+    top: 145px;
+    width: 576px;
+    height: 49px;
+    background-color: #FCFAF9;
+    border-radius: 88px;
+}
+.textStatus{
+    font-family: "Nunito";
+    color: #57ACBC;
+    font-size: 18.5px;
+    font-weight: 700;
+    margin: 11px 0 0 25px;
+}
+.icon-newSletter{
+    position: relative;
+    bottom: 98px;
+    left: 392px; 
+    width: 120px;
+    height: 120px;
 }
