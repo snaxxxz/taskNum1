@@ -1,36 +1,54 @@
 @font-face {
     font-family: "Nunito";
     src: url(/Шрифты/Nunito/Nunito-Medium.ttf);
+    margin: 0 auto;
 }
 @font-face{
     font-family: "ArchivoBlack-Regular";
     src: url(/Шрифты/ArchivoBlack-Regular/ArchivoBlack-Regular.ttf);
+    margin: 0 auto;
 }
 html{
-
-    margin: 0px auto;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
 }
 body{
     background-image: url(/img/Linebg.png),url(/img/Linebg2.png);
-    background-position: center 126px, center 1353px;
+    background-position: center 135px, center 1362px;
     background-repeat: no-repeat,no-repeat;
     background-color: #FCFAF9;
+    background-size: 90%;
+    margin: 0;
+    padding: 0;
 }
 header{
-    margin: 0 auto;
-    width: 1440px;
+    display: flex;
+    justify-content: space-between;
 }
-.head{
+#head{
+    background-color: #FCFAF9;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    position: fixed;
+    top: 7px;
     margin: 0 auto;
-    height: 40px;
+    padding-left: 347px;
     padding-top: 17px;
     padding-bottom: 16px;
     display: flex;
-    margin-left: 116px;
     justify-content: start;
     align-items: center;
+    transition: opacity 0.3s ease;
+    opacity: 1;
 }
+#head.show{
+    opacity: 1;
+}
+#head.hidden{
+    opacity: 0;
+}
+
 
 .main-logo__header{
     width: 132px;
@@ -45,6 +63,7 @@ header{
     height: 40px;
     fill:#DA3369;
     transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
 .head_button{
     margin: 0px;
@@ -114,31 +133,38 @@ header{
     font-size: 15px;
     line-height: 21px;
     font-weight: 500;
-    margin-left: 27px;
+    
     cursor: pointer;
     transition: ease 0.5s;
     position: relative;
     text-decoration: none;
 }
-.textEbac__header-link::before {
-	content: '';
-	left: 0; bottom: -5px;
-	width: 0;
-	height: 1.5px;
-	background-color: #BEDB39;
-}
-
-.textEbac__header-link:hover:before {
-	width: 170%;
-}
-
-.textEbac__header-link::before {
-	transition: width 0.35s;
-}
 
 .icon__header-link{
+    position: relative;
+    top:3px;
+    right: 4px;
     margin-left: 10px;
     cursor: pointer;
+}
+.link-head__block{
+    position: relative;
+    margin-left: 27px;
+    transition: 0.5s ease;
+}
+.link-head__block::before { 
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; 
+    transition: background-color 0.5s ease;
+    
+}
+.link-head__block:hover::before { 
+    background-color: #BEDB39; 
 }
 
 
@@ -157,6 +183,7 @@ header{
     height: 560px;
     margin-left: 116px;
     margin-right: 100px;
+    padding-top: 81px;
     
 }
 .img-desktop1{
@@ -251,6 +278,8 @@ header{
     margin: 0 0 0 8px;
 }
 .readingArticle__link{
+    width: 222px;
+    color: #1B1F21;
     position: relative;
     margin-top: 61px;
     margin-left: 5px;
@@ -260,10 +289,48 @@ header{
     box-sizing: content-box;
     border-radius: 40px;
     font-size: 18px;
-    padding: 10px 49px 10px 49px;
+    padding: 10px 0 10px 0;
     line-height: 28px;
     Box-shadow:0px 0px 0px 5px #BEDB39;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+.readingArticle__link:hover{
+    width: 222px;
+    color: #FCFAF9;
+    position: relative;
+    border: none;
+    margin-top: 61px;
+    margin-left: 5px;
+    font-family: "Nunito";
+    background-color: #1B1F21;
+    box-sizing: content-box;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+    line-height: 28px;
+    Box-shadow:0px 0px 0px 5px #1B1F21;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.readingArticle__link:focus{
+    width: 228px;
+    height: 32px;
+    color: #1B1F21;
+    position: relative;
+    border: solid 1.5px black;
+    margin-top: 56px;
+    margin-left: 1px;
+    font-family: "Nunito";
+    background-color: #BEDB39;
+    box-sizing: content-box;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 12px 0 12px 0;
+    line-height: 28px;
+    Box-shadow:0px 0px 0px 0px #BEDB39;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 @keyframes ticker {
@@ -673,7 +740,7 @@ header{
 } 
 .creeping-line__Webinars{
     position: relative;
-    top: 126px;
+    top: 127px;
     background: #FFAD20;
     font-family: system-ui;
     font-size: 24px;
@@ -737,7 +804,46 @@ header{
     border-radius: 40px;
     padding: 21px 63px 21px 64px;
     border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
 }
+.btn-Webinars__block:hover{
+    font-family: "Nunito";
+    font-size: 18px;
+    font-weight: 400;
+    color: #FCFAF9;
+    background-color: #DA3369;
+    border-radius: 40px;
+    padding: 21px 63px 21px 64px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn-Webinars__block:focus{
+    font-family: "Nunito";
+    font-size: 18px;
+    font-weight: 400;
+    color: #FCFAF9;
+    background-color: #9853F4;
+    border-radius: 40px;
+    padding: 20px 63px 20px 64px;
+    border: solid 1.5px #FCFAF9;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn-Webinars__block:disabled{
+    font-family: "Nunito";
+    font-size: 18px;
+    font-weight: 400;
+    color: #FCFAF9;
+    background-color: #9853F4;
+    border-radius: 40px;
+    padding: 21px 63px 21px 64px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
 .cardsInWebinars__block{
     display: flex;
     justify-content: space-between;
@@ -1214,20 +1320,6 @@ footer{
     font-weight: 500;
     font-family: "Nunito";
 }
-.btn-input__Suscribe__footer:focus{
-    transition: 1s ease;
-    width: 232px;
-    height: 30px;
-    border: 1.5px solid rgb(0, 0, 0);
-    padding: 7px 22px 8px 22px;
-    border-radius: 88px;
-    background-color: transparent;
-    margin-bottom: 8px;
-    color: #FCFAF9;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Nunito";
-}
 .btnEmail__Suscribe__footer{
     transition: 1s ease;
     min-width: 281px;
@@ -1242,6 +1334,38 @@ footer{
     font-size: 18px;
     font-weight: 500;
     font-family: "Nunito";
+}
+.btnEmail__Suscribe__footer:hover{
+    transition: 1s ease;
+    min-width: 281px;
+    min-height: 50px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 88px;
+    background-color: #DA3369;
+    color: #FCFAF9;
+    padding-left: 3px;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+    cursor: pointer;
+}
+.btnEmail__Suscribe__footer:focus{
+    transition: 1s ease;
+    min-width: 281px;
+    min-height: 50px;
+    border: 1.5px solid #FCFAF9;
+    border-radius: 88px;
+    background-color: #9853F4;
+    color: #FCFAF9;
+    padding-left: 3px;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+    cursor: pointer;
 }
 .menuFooter__block{
     width: 688px;
@@ -1295,6 +1419,7 @@ footer{
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .lowInfo-container--footer__block{
     width: 1208px;
@@ -1331,14 +1456,29 @@ footer{
     margin-bottom: 6px;
 }
 .contactsMessengers{
+    position: relative;
     font-family: "Nunito";
     height: 29px;
     width: auto;
     color: #FCFAF9;
     font-size: 18.1px;
     font-weight: 500;
-
+    cursor: pointer;
 }
+.contactsMessengers::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; 
+    transition: background-color 0.5s ease;
+}
+.contactsMessengers::before:hover{
+    background-color: #BEDB39; 
+}
+
 .companyMessengersIcon{
     display: flex;
     width: 200px;
@@ -1349,6 +1489,7 @@ footer{
     width: 32px;
     height: 32px;
     margin-right: 24px;
+    cursor: pointer;
 }
 .icon-messengers:last-child{
     width: 32px;
@@ -1371,7 +1512,6 @@ footer{
 }
 
 .textPrivat:nth-child(3){
-
     width: auto;
     height: 21px;
     font-family: "Nunito";

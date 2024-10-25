@@ -1,3 +1,19 @@
+const header = document.getElementById('head');
+let previousScrollPosition = window.scrollY;
+
+// Проверка скролла
+window.addEventListener('scroll', () => {
+  const currentScrollPosition = window.scrollY;
+
+  if (currentScrollPosition > previousScrollPosition) { // Скролл вниз
+    head.classList.add('hidden'); // Скрыть header
+  } else {
+    head.classList.remove('hidden'); // Показать header
+  }
+
+  previousScrollPosition = currentScrollPosition; // Обновляем предыдущее положение скролла
+});
+
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
@@ -40,5 +56,4 @@ function updateButtonState() {
   submitBtn.addEventListener("click", () => {
     SuscribieteEmailBlocklOpenClose.style.display = "none";
     statusEnviado.style.display = "block";
-
-  });
+});
