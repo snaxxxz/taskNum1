@@ -24,7 +24,7 @@ header{
 .head{
     margin: 0 auto;
     height: 40px;
-    padding-top: 8px;
+    padding-top: 17px;
     padding-bottom: 16px;
     display: flex;
     margin-left: 116px;
@@ -1145,7 +1145,7 @@ input[type="checkbox"]:checked {
 }
 .creeping-line__itemDescuento{
     font-family: "ArchivoBlack-Regular";
-    color: #1B1F21;
+    color: #F2F2F2;
     font-size: 58px;
     font-weight: 900;
     padding-top: 23px;
@@ -1160,7 +1160,9 @@ footer{
 }
 .main-container--footer__block{
     display: flex;
-    padding: 64px 0 80px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 65px 0 80px 0;
     margin: auto;
     width: 1205px;
     height: 505px;
@@ -1168,13 +1170,26 @@ footer{
 }
 .upInfo-container--footer__block{
     display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    height: 268px;
+}
+.inUpInfo-container--footer__block{
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 352px;
+    height: 268px;
 }
 .logo-container--footer__block{
     display: flex;
     justify-content: space-between;
     width: 352px;
-    height: 268px;
+    height: 82px;
+}
+.subscribeEmail_footer{
+    width: 280px;
+    height: 106px;
 }
 .logoEbac_footer{
     width: 224px;
@@ -1184,4 +1199,190 @@ footer{
     padding: 2px 1px 0 0;
     max-width: 80px;
     max-height: 80px;
+}
+.btn-input__Suscribe__footer{
+    width: 232px;
+    height: 30px;
+    border: 1px solid white;
+    padding: 7px 22px 8px 22px;
+    border-radius: 88px;
+    background-color: transparent;
+    margin-bottom: 8px;
+    transition: 1s ease;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+}
+.btn-input__Suscribe__footer:focus{
+    transition: 1s ease;
+    width: 232px;
+    height: 30px;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 7px 22px 8px 22px;
+    border-radius: 88px;
+    background-color: transparent;
+    margin-bottom: 8px;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+}
+.btnEmail__Suscribe__footer{
+    transition: 1s ease;
+    min-width: 281px;
+    min-height: 50px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 88px;
+    background-color: #9853F4;
+    color: #FCFAF9;
+    padding-left: 3px;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito";
+}
+.menuFooter__block{
+    width: 688px;
+    height: 227px;
+    display: flex;
+    line-height: 21px;
+}
+.menuFooter__item{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0 65px 0 0;
+}
+.menuFooter__item:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    max-width: 104px;
+    height: auto;
+    margin: 0 64px 0 0;
+}
+.menuFooter__item:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 152px;
+    margin: 0 63px 0 0;
+}
+.menuFooter__item:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 227px;
+    margin: 0;
+}
+.nameMenuFooter__item{
+    min-height: 29px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #757778;
+    font-family: "Nunito";
+    padding-top: 3px;
+    margin-bottom: 29px;
+    text-align: left;
+}
+.listMenuFooter__item{
+    font-family: "Nunito";
+    max-height: 42px;
+    color: #FCFAF9;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.lowInfo-container--footer__block{
+    width: 1208px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contactsCompany__block{
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    height: 56px;   
+}
+.companyMessengers__block{
+    width: 569px;
+    height: 56px;
+    display: flex;
+}
+.companyMessengers{
+    margin-right: 40px;
+    
+}
+.companyMessengers:last-child{
+    margin-right: 0px;
+}
+.nameMessengers{
+    font-family: "Nunito";
+    height: 21px;
+    width: auto;
+    color: #AEAEAE;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.contactsMessengers{
+    font-family: "Nunito";
+    height: 29px;
+    width: auto;
+    color: #FCFAF9;
+    font-size: 18.1px;
+    font-weight: 500;
+
+}
+.companyMessengersIcon{
+    display: flex;
+    width: 200px;
+    height: 32px;
+    margin-top: 11px;
+}
+.icon-messengers{
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+.icon-messengers:last-child{
+    width: 32px;
+    height: 32px;
+    margin-right: 0px;
+}
+.privat{
+    display: flex;
+    border-top: 1px solid #434343;
+    padding-top: 34px;
+}
+.textPrivat{
+
+    font-family: "Nunito";
+    width: auto;
+    font-size: 13px;
+    color: #AEAEAE;
+    font-weight: 500;
+    margin: 0 8px 0 0;
+}
+
+.textPrivat:nth-child(3){
+
+    width: auto;
+    height: 21px;
+    font-family: "Nunito";
+    font-size: 13px;
+    color: #AEAEAE;
+    font-weight: 500;
+    margin-right: 13px;
+}
+.textPrivat:last-child{
+    font-family: "Nunito";
+    font-size: 13px;
+    color: #AEAEAE;
+    font-weight: 500;
 }
