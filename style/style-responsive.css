@@ -561,4 +561,204 @@
         white-space: nowrap;
         -webkit-backface-visibility: hidden; 
     }
+    .WebinarsBlock{
+        position: relative;
+        bottom: 19px;
+        background-image:url(/img/bgForTablet.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: auto;
+        height: 1100px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .main-Webinars__block{
+        width: 768px;
+        height: 1066px;
+    }
+    .headWebinars__block{
+        width: 704px;
+        height: 64px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 88px;
+        margin-left: 33px;
+    }
+    .text-headWebinars__block{
+        font-family: "ArchivoBlack-Regular";
+        font-size: 28px;
+        font-weight: 400;
+        color: #FCFAF9;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .btn-Webinars__block{
+        font-family: "Nunito";
+        font-size: 18px;
+        font-weight: 400;
+        color: #FCFAF9;
+        background-color: #9853F4;
+        border-radius: 40px;
+        padding: 21px 63px 21px 64px;
+        border: none;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .cardsInWebinars__block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 63px;
+        margin-left: 33px;
+        width: 704px;
+        height: 697px;
+        flex-wrap: wrap;
+
+    }
+    .card-itemWebinars__block{
+        background-image: url(/img/LinebgForCard1.png);
+        background-position: right 105px;
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 371px;
+        background-color: #57ACBC;
+        margin: 0px;
+        margin-right: 24px;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;        
+    }
+    .card-itemWebinars__block:nth-child(2){
+        background-image: url(/img/LinebgForCard2.png);
+        background-position: right 0px;
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 371px;
+        background-color: #FE6D44;
+        margin: 0px;
+        display: flex;
+    }
+    .card-itemWebinars__block:nth-child(3){
+        background-image: url(/img/LinebgForCard3.png);
+        background-position: left 6px;
+        background-repeat: no-repeat;
+        width: 704px;
+        height: 272px;
+        background-color: #EF9700;
+        margin: 0px;
+        display: flex;
+    }
+    .workArea{
+        width: 292px;
+        height: auto;
+        margin: 24px;
+    }
+    .headInfoCard-item__inBlock{
+        width: 292px;
+        height: 64px;
+    }
+    .centralText__inBlock{
+        font-size: 24px;
+        width: 292px;
+        height: auto;
+        margin-bottom: 0px;
+        line-height: 29px;
+    }
+    .lowerArea{
+        margin-top: 55px;
+    }
+    .timeTextInCard__block{
+        min-width: 176px;
+    }
+    .img-desktop7{
+        mask-image: url(/img/Union.png);
+        min-width: 64px;
+        min-height: 64px;
+    }
+    .headInfoCard-item__inBlock[data-block-type="second"]{
+        height: 93px;
+    }
+    .nameHuman__inBlock[data-block-type="second"]{
+        margin-left: 10px;
+    }
+    .proffHuman_inBlock[data-block-type="second"]{
+        margin-left: 10px;
+    }
+    .lowerArea[data-block-type="second"]{
+        margin-top: 7px;
+    }
+    .timeTextInCard__block[data-block-type="second"]{
+        margin-left: 52px;
+    }
+
+    .img-desktop8{
+        mask-image: url(/img/Union.png);
+        min-width: 64px;
+        min-height: 64px;
+    }
+    .nameProff_inBlock[data-block-type="third"]{
+        width: 656px;
+        height: auto;
+    }
+    .nameHuman__inBlock[data-block-type="third"]{
+        width: 572px;
+        height: auto;
+    }
+    .centralText__inBlock[data-block-type="third"]{
+        width: 656px;
+        height: auto;
+    }
+    .lowerArea[data-block-type="third"]{
+        margin-top: 60px;
+    }
+    .dataTextInCard__block[data-block-type="third"]{
+        min-width: 200px;
+    }
+    .timeTextInCard__block[data-block-type="third"]{
+        position: relative;
+        left: 415px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Suscribiete{
+        position: relative;
+        bottom: 93px;
+        right: 200px;
+        margin: 0px;
+        background: #FE6D44;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(3deg);
+    }   
+    .creeping-line__inSuscribiete{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemSuscribiete{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
+    }
+    .main-container__Sub{
+        position: relative;
+        margin: 0 auto;
+        width: 704px;
+        height: 498px;
+        margin-top: 24px;
+        margin-bottom: 135px;
+        background-color: #FCFAF9;
+    }
 }

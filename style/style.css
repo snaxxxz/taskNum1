@@ -545,7 +545,6 @@ header{
     color: #1B1F21;
     margin-top: 16px;
     margin-bottom: 10px;
-    height: auto;
 }
 .text-info-card__item{
     font-family: "Nunito";
@@ -594,6 +593,7 @@ header{
     width: 1208px;
     height: 520px;
     left: 91px;
+
 }
 .img__pos-second{
     display: flex;
@@ -708,7 +708,6 @@ header{
     font-weight: 400;
     margin: 8px 0 0 4px;
     letter-spacing: 0px;
-    width: 688px;
 }
 /* 4ый блок */
 .fourth-info-container{
