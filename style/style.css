@@ -232,9 +232,9 @@ header{
 .mainInfo{
     display: flex;
     flex-direction: column;
-    
+
 }
-.info-card__button{
+.info-card__button{  
     display: flex;
 }
 .main-buttons__in-first-card{
@@ -304,10 +304,20 @@ header{
 .overTime__info-card--first{
     display: flex;
 }
+.overTime__info-card--first2{
+    display: flex;
+}
+
 .publicationDate{
     display: flex;
 }
 .publicationTime{
+    display: flex;
+}
+.publicationDate2{
+    display: flex;
+}
+.publicationTime2{
     display: flex;
 }
 .textOverTime__info-card{
@@ -537,6 +547,17 @@ header{
     margin-bottom: 10px;
 }
 .text-info-card__item{
+    font-family: "Nunito";
+    color: #757778;
+    font-size: 17.9px;
+    line-height: 29px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    width: 480px;
+}
+.text-info-card__item2{
     font-family: "Nunito";
     color: #757778;
     font-size: 17.9px;

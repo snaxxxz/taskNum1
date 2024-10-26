@@ -152,6 +152,7 @@
         margin-left: auto;
         top: 5px;
         right: 23px;
+        margin-right: 0px;
     }
     .secondarybuttons__in-first-card{
         position: relative;
@@ -181,10 +182,11 @@
     }
     .publicationDate{
         position: relative;
-        display: flex;
         left: 20px;
+        width: 152px;
     }
     .iconCalendar__info-card{
+        display: block;
         position: relative;
         left: 160px;
     }
@@ -193,18 +195,21 @@
         display: flex;
         left: 74px;
         top: 10px;
+        margin-left: 25px;
     }
     .iconWatch__info-card{
         position: relative;
+        margin-left: 0px;
         left: 80px;
     }
+   
     .readingArticle__link{
         position: relative;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         top: 70px;
-        left: 5px;
+        left: 6px;
     }
     .readingArticle__link:hover{
         width: 222px;
@@ -288,5 +293,122 @@
         position: relative;
         top: 10px;
         padding: 0 40px 0 40px;
+    }
+    .second-info-container{
+        margin: 0 auto;
+        position: relative;
+        top: 105px;
+        margin-left: 32px;
+        display: flex;
+
+    }
+    .info-card__item1{
+        width: 340px;
+        height: 555px;
+        margin-right: 24px;
+
+    }
+    .img-desktop2{
+        mask-image: url(/img/tablet-mask2.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__fushion{
+        position: relative;
+        bottom: 0px;
+        top: 9px;
+        right: 0;
+        left: -111px;
+        width: 104px;
+        height: 104px;   
+    }
+    .info-card__item2{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 526px;
+    }
+    .img__pos{
+        display: flex;
+        width: 340px;
+        height: 224px;
+    }
+    .img-desktop3{
+        mask-image: url(/img/tablet-mask3.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__diseno{
+        position: relative;
+        top: 9px;
+        left: -111px;
+        right: 0;
+        bottom: 10px;
+        width: 104px;
+        height: 104px; 
+    }
+    .info-card__item1__button{
+        margin-top: 24px;
+    }
+    .mainText-info-card__item{
+        width: 340px;
+        height: 87px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .text-info-card__item{
+        width: 340px;
+        height: 116px;
+        font-size: 18px;
+    }
+    .text-info-card__item2{
+        width: 340px;
+        height: 116px;
+        font-size: 18px;
+        margin-top: 3px;
+        margin-bottom: 20px;
+    }
+    .overTime__info-card--first2{
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        height: 21px;
+        justify-content: space-between;
+    }
+    .textOverTime__info-card[data-block-type="second"]{
+        width: 152px;
+        height: auto;
+        margin-left: 2px;
+    }
+    
+    .publicationDate2{
+        position: relative;
+        left: 0px;
+        width: 152px;
+        bottom: 2px;
+        margin-left:6px;
+    }
+    .publicationTime2{
+        position: relative;
+        left: 0px;
+        width: 72px;
+        bottom: 2px;
+        margin-left: 26px;
+    }
+    .iconCalendar__info-card[data-block-type="second"]{
+        position: relative;
+        width: 17px;
+        height: 17px;
+        left: -4px;
+    }
+    .visibleTime__info-card{
+        width: auto;
+        margin: 0;
+    }
+    .iconWatch__info-card[data-block-type="second"]{
+        position: relative;
+        top: 0;
+        left: -8px;
+        right: 0;
     }
 }
