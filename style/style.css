@@ -8,10 +8,6 @@
     src: url(/Шрифты/ArchivoBlack-Regular/ArchivoBlack-Regular.ttf);
     margin: 0 auto;
 }
-html{
-    margin: 0 auto;
-    padding: 0;
-}
 body{
     background-image: url(/img/Linebg.png),url(/img/Linebg2.png);
     background-position: center 135px, center 1362px;
@@ -21,26 +17,38 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
-    display: flex;
-    justify-content: space-between;
+a{
+    text-decoration: none;
+    color: inherit; 
 }
-#head{
-    background-color: #FCFAF9;
+header{
     width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+}   
+.head{
+    background-color: #FCFAF9;
+    width: 1208px;
     height: auto;
-    z-index: 1000;
-    position: fixed;
-    top: 7px;
     margin: 0 auto;
-    padding-left: 347px;
     padding-top: 17px;
     padding-bottom: 16px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
-    transition: opacity 0.3s ease;
-    opacity: 1;
+}
+#head_fixed{
+    z-index: 1000;
+    position: fixed;
+    top: 7px;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FCFAF9;
 }
 #head.show{
     opacity: 1;
@@ -51,22 +59,25 @@ header{
 
 
 .main-logo__header{
-    width: 132px;
-    margin-right: 120px;
+    right: 0;
+    left: 0;
+    margin-top: 6px;
+    width: 110px;
     height: 40px;
     fill:#1B1F21;
     transition: ease-in-out 0.3s;
 }
 .main-logo__header:hover{
-    width: 132px;
-    margin-right: 120px;
+    width: 110px;
     height: 40px;
     fill:#DA3369;
     transition: ease-in-out 0.2s;
     cursor: pointer;
 }
 .head_button{
-    margin: 0px;
+    margin-top: 1px;
+    width: 694px;
+    align-items: center;
     display: flex;
 }
 .button_menu{
@@ -74,8 +85,8 @@ header{
     font-weight: 500;
     font-size: 15px;
     height: 37px;
-    margin-left: 0px;
-    margin-right: 9px;
+    max-width: 180px;
+    margin-right: 8px;
     padding-top: 7px;
     padding-bottom: 8px;
     padding-left: 18px;
@@ -93,6 +104,9 @@ header{
 .button_menu:nth-child(2):hover{
     background-color: #A4CCFE;
     transition: ease 0.5s;
+}
+.button_menu:nth-child(2){
+    min-width: 183px;
 }
 .button_menu:nth-child(3):hover{
     background-color: #D0B0FA;
@@ -116,7 +130,6 @@ header{
     font-weight: 500;
     font-size: 15px;
     margin-left: 0px;
-    margin-right: 146px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 18px;
@@ -126,45 +139,54 @@ header{
     border-radius: 20px;
 }
 .icon__header-search{
+    position: relative;
+    top: 3px;
     cursor: pointer;
 }
-.textEbac__header-link{
-    font-family: "Nunito";
-    font-size: 15px;
-    line-height: 21px;
-    font-weight: 500;
-    
-    cursor: pointer;
-    transition: ease 0.5s;
-    position: relative;
-    text-decoration: none;
+.textEbac-icon__header{
+    display: flex;
+    width: 66px;
+    height: 24px;
+    text-align: center;
 }
 
-.icon__header-link{
+.textEbac__header-link{
     position: relative;
-    top:3px;
-    right: 4px;
-    margin-left: 10px;
+    font-family: "Nunito";
+    font-size: 15px;
+    top: 3px;
+    line-height: 21px;
+    font-weight: 500;
     cursor: pointer;
+    transition: ease 0.5s;
+    text-decoration: none;
 }
-.link-head__block{
-    position: relative;
-    margin-left: 27px;
-    transition: 0.5s ease;
-}
-.link-head__block::before { 
+.textEbac-icon__header::before { 
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 23px;
+    left: 500;
+    width: 66px;
     height: 2px;
     background-color: transparent; 
     transition: background-color 0.5s ease;
     
 }
-.link-head__block:hover::before { 
+.textEbac-icon__header:hover::before { 
     background-color: #BEDB39; 
+}
+
+.icon__header-link{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+.link-head__block{
+    justify-content: space-between;
+    display: flex;
+    width: 114px;
+    height: 24px;
 }
 
 
@@ -173,7 +195,7 @@ header{
     position: relative;
     margin: 0 auto;
     width: 1440px;
-    margin-top: 80px;
+    margin-top: 152px;
     
 }
 
@@ -183,8 +205,7 @@ header{
     height: 560px;
     margin-left: 116px;
     margin-right: 100px;
-    padding-top: 81px;
-    
+    padding-top: 9px;
 }
 .img-desktop1{
     mask-image: url(/img/desktop-mask1.png);
@@ -208,29 +229,21 @@ header{
     margin-top: 46px;
     margin-left: 39px;
 }
-/* .info-card__button{
+.mainInfo{
+    display: flex;
+    flex-direction: column;
     
-} */
-.buttons__in-first-card{
-    color:#94AC23;
-    font-family: "Nunito";
-    margin-right: 6px;
-    font-weight: 500;
-    font-size: 15px;
-    height: 37px;
-    padding: 0px;
-    background-color:#FCFAF9E5;
-    border: none;
-    cursor: pointer;
-    transition: ease 0.5s;
 }
-.buttons__in-first-card:nth-child(1){
+.info-card__button{
+    display: flex;
+}
+.main-buttons__in-first-card{
     color: #1B1F21;
     font-family: "Nunito";
     font-weight: 500;
     font-size: 15px;
     height: 37px;
-    margin-right: 10px;
+    margin-right: 16px;
     padding-top: 7px;
     padding-bottom: 8px;
     padding-left: 18px;
@@ -241,7 +254,38 @@ header{
     cursor: pointer;
     transition: ease 0.5s;
 }
+.secondarybuttons__in-first-card{
+    display: flex;
+}
+.buttons__in-first-card{
+    align-items: center;
+    color:#94AC23;
+    font-family: "Nunito";
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 37px;
+    padding: 0px;
+    background-color:#FCFAF9E5;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.buttons__in-first-card:nth-child(3){
+    color:#94AC23;
+    font-family: "Nunito";
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 37px;
+    padding: 0px;
+    background-color:#FCFAF9E5;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
 .mainText-info-card__first{
+    display: flex;
     font-family: "ArchivoBlack-Regular";
     font-size: 36px;
     margin-top: 17px;
@@ -249,6 +293,7 @@ header{
     margin-bottom: 0PX;
 }
 .text-info-card__first{
+    display: flex;
     font-family: "Nunito";
     color: #757778;
     font-size: 18px;
@@ -257,6 +302,12 @@ header{
     margin-bottom: 16px;
 }
 .overTime__info-card--first{
+    display: flex;
+}
+.publicationDate{
+    display: flex;
+}
+.publicationTime{
     display: flex;
 }
 .textOverTime__info-card{
@@ -278,6 +329,8 @@ header{
     margin: 0 0 0 8px;
 }
 .readingArticle__link{
+    display: flex;
+    justify-content: center;
     width: 222px;
     color: #1B1F21;
     position: relative;
