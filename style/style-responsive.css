@@ -352,13 +352,13 @@
     }
     .mainText-info-card__item{
         width: 340px;
-        height: 87px;
+        height: auto;
         font-size: 24px;
         line-height: 29px;
     }
     .text-info-card__item{
         width: 340px;
-        height: 116px;
+        height: auto;
         font-size: 18px;
     }
     .text-info-card__item2{
@@ -410,5 +410,155 @@
         top: 0;
         left: -8px;
         right: 0;
+    }
+    /* 3ий блок */
+    .third-info-container{
+        width: 704px;
+        height: 559px;
+    }
+    .img-desktop4{
+        mask-image: url(/img/tablet-mask4.png);
+        position: relative;
+        width: 704px;
+        height: 320px;
+        left: 92px;
+        margin-top: 0px;
+        top: 62px;
+    }
+    .img-icon__diseno2{
+        position: relative;
+        top: 70px;
+        left: -36px;
+        bottom: 0px;
+        right: 50px;
+        width: 120px;
+        height: 120px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__diseno2:hover{
+       transform: rotate(360deg);
+    }
+    .img__pos-second{
+        display: flex;
+        width: auto;
+        height: 320px;
+    }
+    .info-card__second{
+        position: relative;
+        top: 83px;
+        left: 51px;
+        margin: 0 auto;
+        width: 702px;
+        height: 215px;
+    }
+    .info-card__button--second{
+        position: relative;
+        left: 14px;
+        justify-content: left;
+        min-width: 219px;
+        height: 144px;
+        margin-top: 2px;
+
+    }
+    .text-info-card__item--second{
+        width: 461px;
+        height: 215px;
+    }
+    .mainText-info-card__second{
+        font-size: 26px;
+        line-height: 32px;
+        width: auto;
+    }
+    .text-info-card__second{
+        width: 471px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    /* четвертый блок */
+    .fourth-info-container{
+        width: 704px;
+        height: 526px;
+        margin: 0px;
+        margin-top: 178px;
+        margin-left: 32px;
+    }
+    .img-desktop5{
+        mask-image: url(/img/tablet-mask5.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__marketing{
+        position: relative;
+        bottom: 0px;
+        right: 160px;
+        top: -10px;
+        min-width: 164px;
+        height: 124px;
+        margin: 0px;
+        padding: 0px;
+        transform: rotate(15deg);
+    }
+    .overTime__info-card--first[data-block-type="second"]{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        height: 21px;
+        justify-content: space-between;
+    }
+    .img-desktop6{
+        mask-image: url(/img/tablet-mask6.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__software{
+        position: relative;
+        bottom: 0px;
+        top: 8px;
+        width: 104px;
+        right: 110px;
+        height: 104px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__software:hover{
+       transform: rotate(360deg);
+    }
+    .text-info-card__item[data-block-type="second"]{
+        margin-top: 3px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Webinars{
+        position: relative;
+        margin-top: 126px;
+        background: #FFAD20;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        right: 200px;
+        top: 216px;
+        margin: 0 auto;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(-3deg);
+        margin-bottom: 201px;
+    }   
+    .creeping-line__inWebinars{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemWebinars{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
     }
 }
