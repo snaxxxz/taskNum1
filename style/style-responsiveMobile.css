@@ -209,7 +209,7 @@
         position: relative;
         margin: 0;
         margin-top: 2px;
-        right: 30px;
+        right: 0px;
         width: 248px;
         order: 4;
     }
@@ -328,7 +328,7 @@
     }
     .second-info-container{
         flex-direction: column;
-        margin: 0 auto;
+        margin: 0;
         position: relative;
         top: 105px;
         margin-left: 32px;
@@ -336,14 +336,396 @@
     }
     .info-card__item1{
         position: relative;
-        left: 0px;
+        top: -20px;
+        left: -25px;
         width: 304px;
         height: 708px;
         margin: 0px;
+        margin-top: 0px;
     }
     .img-desktop2{
         mask-image: url(/img/mobile-mask2.png);
         min-width: 304px;
         height: 352px;
+    }
+    .img-icon__fushion{
+        position: relative;
+        bottom: 0px;
+        top: 9px;
+        right: 0;
+        left: -295px;
+        width: 120px;
+        height: 120px;   
+    }
+    .info-card__item1__button{
+        margin-top: 145px;
+    }
+    .mainText-info-card__item{
+        width: 304px;
+        height: auto;
+    }
+    .text-info-card__item{
+        width: 304px;
+        height: auto;
+    }
+    .info-card__item2{
+        position: relative;
+        top: 85px;
+        left: -25px;
+        width: 304px;
+        height: 708px;
+        margin: 0px;
+        margin-top: 0px;
+    }
+    .img-desktop3{
+        mask-image: url(/img/mobile-mask3.png);
+        min-width: 304px;
+        height: 352px;
+    }
+    .img-icon__diseno{
+        position: relative;
+        bottom: 48px;
+        left: -128px;
+        width: 120px;
+        height: 120px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__diseno:hover{
+        transform: rotate(450deg);
+    }
+    .text-info-card__item2{
+        margin-top: 5px;
+        width: 304px;
+        height: auto;
+    }
+    .third-info-container{
+        width: 304px;
+        height: 766px;
+        margin-top: 94px;
+    }
+    .img-desktop4{
+        mask-image: url(/img/mobile-mask4.png);
+        position: relative;
+        width: 304px;
+        height: 352px;
+        left: 68px;
+        right: 0;
+        top: 130px;
+    }
+    .img-icon__diseno2{
+        position: relative;
+        width: 120px;
+        height: 120px;
+        left: -228px;
+        top: 137px;
+    }
+    .info-card__second{
+        width: 304px;
+        height: auto;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+    }
+    .btnIn--info-card__second{
+        position: relative;
+        top: -26px;
+        right: 9px;
+        width: 304px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 120px;
+    }
+    .btn__inCard{
+        position: relative;
+        top: -5px;
+        left: 3px;
+    }
+    .mainBtn-in-Icard{
+        margin: 0px;
+    }
+    .mainText-info-card__second{
+        width: 304px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .text-info-card__second{
+        display: flex;
+        margin: 0px;
+        margin-top: 17px;
+        margin-left: 8px;
+        width: 304px;
+        height: auto;
+    }
+    .overTime__info-card--second{
+        position: relative;
+        width: 304px;
+        flex-direction: row;
+        display: flex;
+        top: 300px;
+    }
+    .textOverTime__info-card--fix{
+        margin-left: 17px;
+        position: relative;
+        top: -10px;
+    }
+    .visibleTime__info-card--fix{
+        position: relative;
+        margin: 0px;
+        top: -15px;
+        left: 30px;
+    }
+    .iconCalendar__info-card--fix{
+        margin: 0px;
+        left: -155px;
+    }
+    .iconWatch__info-card--fix{
+        position: inherit;
+        right: 82px;
+        top: 6px;
+    }
+    .fourth-info-container{
+        margin-top: 295px;
+        display: flex;
+        flex-direction: column;
+        width: 304px;
+        height: auto;
+    }
+    .img-desktop5{
+        mask-image: url(/img/mobile-mask5.png);
+        min-width: 304px;
+        height: 352px;
+    }
+    .img-icon__marketing{
+        position: relative;
+        bottom: 76px;
+        right: 180px;
+        min-width: 182px;
+        height: 135px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-desktop6{
+        mask-image: url(/img/mobile-mask6.png);
+        min-width: 304px;
+        height: 352px;
+    }
+    .info-card__item2[data-block-type="second"]{
+        top: -2px;
+    }
+    .img-icon__software{
+        position: relative;
+        bottom: 0px;
+        top: 8px;
+        width: 120px;
+        right: 295px;
+        height: 120px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__software:hover{
+       transform: rotate(360deg);
+    }
+    .text-info-card__item[data-block-type="second"]{
+        margin-top: 4px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Webinars{
+        position: relative;
+        margin-top: 126px;
+        background: #FFAD20;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        right: 200px;
+        top: 25px;
+        margin: 0 auto;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(-4deg);
+        margin-bottom: 201px;
+        z-index: 1000;
+    }   
+    .creeping-line__inWebinars{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemWebinars{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
+    }
+    .WebinarsBlock{
+        position: relative;
+        bottom: 168px;
+        background-image:url(/img/bgForMob.png);
+        background-color: #1B1F21;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: auto;
+        height:1586px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .main-Webinars__block{
+        margin: 0;
+        position: relative;
+        bottom: 170px;
+        width: 320px;
+        height: 1066px;
+    }
+    .headWebinars__block{
+        flex-direction: column;
+    }
+    .text-headWebinars__block{
+        position: relative;
+        right: 25px;
+        bottom: 100px;
+        margin: 0px;
+        font-size: 28px;
+    }
+    .cardsInWebinars__block{
+        position: relative;
+        top: -88px;
+        margin: 0px;
+        flex-direction: column;
+        width: 304px;
+        height: auto;
+    }
+    .card-itemWebinars__block{
+        width: 304px;
+        height: 351px;
+        margin-left: 8px;
+        margin-bottom: 15px;
+    }
+    .card-itemWebinars__block:nth-child(2){
+        background-image: url(/img/LinebgForCard2.png);
+        background-position: right 0px;
+        background-repeat: no-repeat;
+        width: 304px;
+        height: auto;
+        background-color: #FE6D44;
+        margin-left: 8px;       
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .card-itemWebinars__block:nth-child(3){
+        background-image: url(/img/LinebgForCard3.png);
+        background-position: left 6px;
+        background-repeat: no-repeat;
+        width: 304px;
+        height: 370px;
+        background-color: #EF9700;
+        margin-left: 8px;
+        display: flex;
+    }
+    .workArea{
+        margin: 24px;
+        width: 290px;
+        min-height: 301px;
+    }
+    .nameProff_inBlock{
+        width: 182px;
+    }
+    .nameHuman__inBlock{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .nameHuman__inBlock[data-block-type="second"]{
+        margin-left: 20px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .proffHuman_inBlock[data-block-type="second"]{
+        margin-left: 20px;
+    }
+    .lowerArea{
+        margin-top: 35px;
+    }
+    .timeTextInCard__block[data-block-type="second"]{
+        margin-left: 13px;
+    }
+    .centralText__inBlock[data-block-type="second"]{
+        margin-top: 5px;
+    }
+    .centralText__inBlock[data-block-type="second"]{
+        width: 256px;
+        height: auto;
+        margin-bottom: 35px;
+    }
+    .nameHuman__inBlock[data-block-type="third"]{
+        width: 172px;
+    }
+    .centralText__inBlock[data-block-type="third"]{
+        margin-top: 37px;
+        width: 256px;
+    }
+    .lowerArea[data-block-type="third"]{
+        width: 256px;
+    }
+    .secondPiece{
+        width: 256px;
+    }
+    .dataTextInCard__block[data-block-type="third"]{
+        min-width: 156px;
+        height: 40px;
+        
+    }
+    .timeTextInCard__block[data-block-type="third"]{
+        margin: 0;
+        left: 0;
+        right: 0;
+    }
+    .timeTextInCard__block[data-block-type="third"]{
+        margin-left: 13px;
+    }
+    .btn-Webinars__block{
+        position: relative;
+        top: 1148px;
+        width: 304px;
+        left: -24px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Suscribiete{
+        position: relative;
+        bottom: 215px;
+        right: 200px;
+        margin: 0px;
+        background: #FE6D44;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(4deg);
+    }   
+    .creeping-line__inSuscribiete{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemSuscribiete{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
     }
 }

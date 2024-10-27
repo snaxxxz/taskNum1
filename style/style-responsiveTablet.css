@@ -300,13 +300,11 @@
         top: 105px;
         margin-left: 32px;
         display: flex;
-
     }
     .info-card__item1{
         width: 340px;
         height: 555px;
         margin-right: 24px;
-
     }
     .img-desktop2{
         mask-image: url(/img/tablet-mask2.png);
