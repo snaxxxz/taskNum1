@@ -1486,6 +1486,7 @@ footer{
     padding-top: 3px;
     margin-bottom: 29px;
     text-align: left;
+    cursor: pointer;
 }
 .listMenuFooter__item{
     font-family: "Nunito";
@@ -1600,4 +1601,7 @@ footer{
     font-size: 13px;
     color: #AEAEAE;
     font-weight: 500;
+}
+.accordion.closed{
+    display: block;
 }

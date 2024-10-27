@@ -57,3 +57,12 @@ function updateButtonState() {
     SuscribieteEmailBlocklOpenClose.style.display = "none";
     statusEnviado.style.display = "block";
 });
+
+const menuFooter__item = document.querySelectorAll('.menuFooter__item');
+menuFooter__item.forEach(item => {
+  const header = item.querySelector('.nameMenuFooter__item');
+  const content = item.querySelector('.accordion');
+  header.addEventListener('click', () => {
+    content.classList.toggle('closed');
+  });
+});

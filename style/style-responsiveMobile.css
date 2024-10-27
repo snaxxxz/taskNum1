@@ -728,4 +728,230 @@
         white-space: nowrap;
         -webkit-backface-visibility: hidden; 
     }
+    .main-container__Sub{
+        position: relative;
+        margin: 0 auto;
+        width: 304px;   
+        height: 1132px;
+        margin-top: 24px;
+        margin-bottom: 135px;
+        background-color: #FCFAF9;
+    }
+    .suscribe__block{
+        margin: 0;
+        top: -175px;
+        position: relative;
+        display: flex;
+        mask-image: none;
+        background-image:url(/img/bgSuscriMob.png), url(/img/LinebgSuscribe.png);
+        background-position: center,center; 
+        background-repeat:no-repeat, no-repeat;
+        background-size:cover, cover;
+        background-color: #FCFAF9E5;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        width: 304px;
+        height: 1070px;
+    }
+    .mainTextSuscribe__block{
+        font-size: 26px;
+        width: 256px;
+        height: auto;
+        margin-top: 23px;
+    }
+    .textSuscribe__block{
+        margin-top: 10px;
+        width: 256px;
+    }
+    .mainFunc{
+        margin-top: 10px;
+    }
+    .btn-input__Suscribe__block{
+        margin-top: 71px;
+        max-width: 204px;
+        max-height: 49px;
+    }
+    .btnEmail__Suscribe__block{
+        max-width: 254px;
+        max-height: 49px;
+        margin-top: 10px;
+    }
+    .workingCondition{
+        position: relative;
+        top: -8px;
+    }
+    .userAgreement{ 
+        width: 216px;
+        margin-left: 15px;
+    }
+    .textError{
+        position: relative;
+        top: -143px;
+        right: 10px;
+        font-size: 10px;
+    }
+    .iconError{
+        left: 214px;
+        top: -190px;
+    }
+    .iconOk{
+        left: 215px;
+        top: -177px;
+    }
+    .email-logoSuscribe__block{
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(/img/bgSuscriMob2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 304px;
+        height: 400px;
+        z-index: 1000;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Descuento{
+        position: relative;
+        bottom: 241px;
+        right: 200px;
+        margin: 0px;
+        background: #DA3369;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+    }   
+    .creeping-line__inDescuento{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemDescuento{
+        font-family: "ArchivoBlack-Regular";
+        color: #F2F2F2;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
+    }
+    footer{
+        position: relative;
+        left: -275px;
+        width: 320px;
+        height: auto;
+        background-color: #1B1F21;
+        top: -242px;
+    }
+    .main-container--footer__block{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 65px 0 80px 0;
+        margin: auto;
+        margin-left: 275px;
+        width: 320px;
+        height: 1142px;
+        background-color: #1B1F21;
+    }
+    .logo-container--footer__block{
+        position: relative;
+        width: 304px;
+        top: -36px;
+        margin-left: 7px;
+    }
+    .companyMessengersIcon{
+        width: 304px;
+        height: auto;
+        right: 898px;
+        top: -958px;
+    }
+    .size-icon-messengers{
+        width: 48px;
+        height: 48px;
+    }
+    .icon-messengers{
+        margin-right: 54px;
+    }
+    .accordion.closed{
+        display: none;
+    }
+    .menuFooter__item{
+        margin-bottom: 17px;
+    }
+    .menuFooter__block{
+        flex-direction: column;
+        width: 304px;
+        height: 164px;
+        position: relative;
+        right: 279px;
+        top: 185px;
+    }
+    .nameMenuFooter__item{
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .listMenuFooter__item{
+        width: 304px;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .companyMessengers__block{
+        flex-direction: column;
+        position: relative;
+        top: -297px;
+        right: 26px;
+        width: 304px;
+        height: auto;
+    }
+    .companyMessengers{
+        margin-bottom: 25px;
+    }
+    .companyMessengers:nth-child(2){
+        margin-bottom: 22px;
+    }
+    .subscribeEmail_footer{
+        width: 304px;
+        height: 106px;
+        position: relative;
+        top: 757px;
+        left: 7px;
+    }
+    .btn-input__Suscribe__footer{
+        width: 258px;
+        height: 32px;
+    }
+    .btnEmail__Suscribe__footer{
+        width: 304px;
+        margin-top: 0px;
+    }
+    .privat{
+        position: relative;
+        top: 98px;
+        left: 8px;
+        flex-direction: column;
+        padding: 0;
+        border: none;
+    }
+    .textPrivat{
+        padding-bottom: 18px;
+    }
+    .textPrivat:nth-child(2){
+        display: none;
+    }
+    .textPrivat:nth-child(4){
+        display: none;
+    }
+
 }
