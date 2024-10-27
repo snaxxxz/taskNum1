@@ -1451,9 +1451,9 @@ footer{
 .menuFooter__item{
     display: flex;
     flex-direction: column;
-    width: 144px;
+    width: auto;
     height: auto;
-    margin: 0 45px 0 0;
+    margin: 0 65px 0 0;
 }
 .menuFooter__item:nth-child(2){
     display: flex;
