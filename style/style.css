@@ -1130,6 +1130,7 @@ header{
     line-height: 28.8px;
     margin: 7px 0 0 0;
     letter-spacing: 0px;
+    width: 584px;
 }
 
 .email-logoSuscribe__block{
@@ -1228,11 +1229,11 @@ input:focus{
 }
 
 input[type="checkbox"] {
-    -webkit-appearance: none; /* Сбрасываем стандартный вид */
-    appearance: none; /* Сбрасываем стандартный вид */
+    -webkit-appearance: none;
+    appearance: none; 
     background-color: #eee;
     cursor: pointer;
-}
+} 
 input[type="checkbox"]:checked::before { 
     background-image: url(/img/image183\(Traced\).png);
     background-repeat: no-repeat;
@@ -1450,9 +1451,9 @@ footer{
 .menuFooter__item{
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 144px;
     height: auto;
-    margin: 0 65px 0 0;
+    margin: 0 45px 0 0;
 }
 .menuFooter__item:nth-child(2){
     display: flex;

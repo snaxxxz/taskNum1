@@ -761,4 +761,284 @@
         margin-bottom: 135px;
         background-color: #FCFAF9;
     }
+    .suscribe__block{
+        margin: 0;
+        position: relative;
+        display: flex;
+        mask-image: none;
+        background-image: url(/img/LinebgSuscribe.png);
+        background-position: 89px -47px;
+        background-repeat: no-repeat;
+        background-size: 989.47px 725.2px;
+        background-color: #57ACBC;
+        border-top-right-radius: 64px;
+        border-bottom-right-radius: 64px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 557px;
+        height: 498px;
+    }
+    .mainInfo-suscribe__block{
+        margin: 40px 145px 40px 25px;
+    }
+    .email-logoSuscribe__block{
+        position: relative;
+        background-image: url(/img/illustrationTablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: 121px;
+        min-width: 288px;
+        height: 498px;
+    }
+    .mainTextSuscribe__block{
+        font-family: "ArchivoBlack-Regular";
+        font-weight: 400;
+        font-size: 26px;
+        color: #FCFAF9;
+        line-height: 31px;
+        margin: 0;
+        width: 368px;
+        height: auto;
+    }
+    .textSuscribe__block{
+        font-family: "Nunito";
+        font-weight: 100;
+        color: #FCFAF9;
+        font-size: 17.9px;
+        line-height: 28.8px;
+        margin: 7px 0 0 0;
+        letter-spacing: 0px;
+        width: 368px;
+    }
+    .status-menuSuscribe__block{
+        display: block;
+    }
+    .mainFunc{
+        display: flex;
+        flex-direction: column;
+    }
+    .btnEmail__Suscribe__block{
+        margin-top: 18px;
+    }
+    .btn-input__Suscribe__block{
+        margin-top: 65px;
+    }
+    .btn-input__Suscribe__block:focus{
+        transition: 1s ease;
+        margin-top: 65px;
+        width: 232px;
+        height: 30px;
+        border: 1.5px solid rgb(0, 0, 0);
+        padding: 9px 22px 7px 24px;
+        border-radius: 88px;
+        background-color: transparent;
+        margin-right: 11px;
+        color: #FCFAF9;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Nunito";
+    }
+    .workingCondition{
+        width: 368px;
+        height: auto;
+    }
+    .userAgreement{
+        width: 316px;
+        height: auto;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .textError{
+        margin: 0px;
+        top: -130px;
+    }
+    .iconError{
+        top: -183px;
+    }
+    .iconOk{
+        top: -168px;    
+    }
+    .statusEnviado{
+        position: relative;
+        top: 130px;
+        width: 280px;
+        height: 114px;
+        border-radius: 24px;
+    }
+    .textStatus{
+        width: 142px;
+        height: 58px;
+        margin: 36px 24px 28px 24px;
+        font-size: 17px;
+    }
+    .icon-newSletter{
+        left: 190px;
+        top: -165px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Descuento{
+        position: relative;
+        bottom: 28px;
+        right: 200px;
+        margin: 0px;
+        background: #DA3369;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+    }   
+    .creeping-line__inDescuento{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+        -webkit-transform-style: preserve-3d;
+    }
+    .creeping-line__itemDescuento{
+        font-family: "ArchivoBlack-Regular";
+        color: #F2F2F2;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-backface-visibility: hidden; 
+    }
+    footer{
+        position: relative;
+        left: -275px;
+        width: 1279px;
+        height: auto;
+        background-color: #1B1F21;
+        top: -28px;
+    }
+    .main-container--footer__block{
+        position: relative;
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 65px 0 80px 0;
+        margin: auto;
+        margin-left: 275px;
+        width: 768px;
+        height: 672px;
+        background-color: #1B1F21;
+    }
+    .upInfo-container--footer__block{
+        width: 704px;
+        height: 144px;
+    }
+    .inUpInfo-container--footer__block{
+        width: 285px;
+        height: 144px;
+    }
+    .logo-container--footer__block{
+        display: flex;
+        justify-content: space-between;
+        width: 285px;
+        min-height: 144px;
+        margin-left: 32px;
+    }
+    .logoEbac_footer{
+        width: 173px;
+        height: 64px;
+    }
+    .logoHolon_footer{
+        padding: 2px 1px 0 0;
+        max-width: 64px;
+        max-height: 64px;
+    }
+    .menuFooter__block{
+        position: relative;
+        top: 235px;
+        right: 252px;
+        min-width: 704px;
+        height: 227px;
+        display: flex;
+        line-height: 21px;
+    }
+    .menuFooter__item{
+        margin: 0 45px 0 0;
+    }
+    .menuFooter__item:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        max-width: 104px;
+        height: auto;
+        margin: 0 70px 0 0;
+    }
+    .menuFooter__item:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-width: 152px;
+        margin: 0 70px 0 0;
+    }
+    .subscribeEmail_footer{
+        position: relative;
+        top: -142px;
+        bottom: 100px;
+        left: 456px;
+    }
+    .btnEmail__Suscribe__footer{
+        margin-top: 9px;
+    }
+    .btnEmail__Suscribe__footer:hover{
+        transition: 1s ease;
+        min-width: 281px;
+        min-height: 50px;
+        margin-top: 9px;
+        border: 1.5px solid rgb(0, 0, 0);
+        border-radius: 88px;
+        background-color: #DA3369;
+        color: #FCFAF9;
+        padding-left: 3px;
+        margin: 0 auto;
+        letter-spacing: 0.2px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Nunito";
+        cursor: pointer;
+    }
+    .lowInfo-container--footer__block{
+        width: 704px;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contactsCompany__block{
+        display: flex;
+        justify-content: space-between;
+        min-width: 569px;
+        height: 56px;   
+    }
+    .companyMessengers__block{
+        margin-top: 2px;
+        margin-left: 32px;
+        min-width: 569px;
+        height: 56px;
+        display: flex;
+    }
+    .companyMessengersIcon{
+        position: relative;
+        right: 976px;
+        top: -445px;
+        display: flex;
+        width: 200px;
+        height: 32px;
+        margin-top: 11px;
+    }
+    .privat{
+        display: flex;
+        position: relative;
+        top:4px;
+        left: 32px;
+        border-top: 1px solid #434343;
+        padding-top: 26px;
+    }
 }
