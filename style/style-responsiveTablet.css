@@ -1,0 +1,1036 @@
+/* TABLET */
+@media (max-width: 1279px){
+    body{
+        background-color: #FCFAF9E5;
+        margin: 0 auto;
+        height: auto;
+        max-width: 768px;
+        padding: 0;
+    }
+    .head{
+        background-color: #FCFAF9;
+        width: 704px;
+        height: 120px;
+        margin: 0px;
+        padding-top: 17px;
+        padding-bottom: 16px;
+        margin-left: 32px;
+        display: block;
+    }
+    header{
+        z-index: 1000;
+        position: fixed;
+        top: 7px;
+        width: auto;
+        height: 72px;
+        margin: 0 auto;
+        background-color: #FCFAF9;
+    }
+    header.hidden {
+        top: -140px; /* Скрываем хедер за пределы экрана */
+    }
+    .head_button{
+        margin-top: 1px;
+        width: 704px;
+        align-items: center;
+        display: flex;
+    }
+    .link-head__block{
+        position: relative;
+        justify-content: space-between;
+        display: flex;
+        width: 114px;
+        height: 24px;
+        bottom: 74px;
+        left: 591px;
+    }
+    .textEbac__header-link{
+        position: relative;
+        font-family: "Nunito";
+        font-size: 15px;
+        top: 3px;
+        line-height: 21px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: ease 0.5s;
+        text-decoration: none;
+    }
+    .textEbac-icon__header::before { 
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 500;
+        width: 66px;
+        height: 2px;
+        background-color: transparent; 
+        transition: background-color 0.5s ease;
+    }
+    .head_button{
+        position: relative;
+        top: 20px;
+        margin-top: 1px;
+        width: 694px;
+        align-items: center;
+        display: flex;
+    }
+    .button_menu{
+        font-family: "Nunito";
+        font-weight: 500;
+        font-size: 15px;
+        height: 37px;
+        max-width: 180px;
+        margin-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border: 1px solid #E8E8E8;
+        background-color:#FCFAF9E5;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: ease 0.5s;
+    }
+    /* main block */
+    .main-container{
+        position: relative;
+        margin: 0 auto;
+        width: 768px;
+        margin-top: 152px;
+    }
+    .first-info-container{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 600px;
+        margin-left: 32px;
+        margin-right: 32px;
+        padding-top: 44px;
+    }
+    .img-desktop1{
+        mask-image: url(/img/tablet-mask1.png);
+        width: 704px;
+        height: 320px;
+    }
+    .img-icon__transition{
+        position: absolute;
+        left: 309px;
+        bottom: 0;
+        top: 52px;
+        width: 120px;
+        height: 120px;
+        transition: ease-in-out 1.5s;
+    }
+    .img-icon__transition:hover{
+        transform: rotate(550deg);
+    }
+    .info-card--first{
+        display: flex;
+        flex-direction: column;
+        width: 688px;
+        height: 308px;
+        margin-top: 46px;
+        margin-left: 10px;
+    }
+    .mainInfo{
+        position: relative;
+        width: 704px;
+        margin-left: 13px;
+        bottom: 22px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .info-card__button{
+        position: relative;
+        justify-content: end;
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        width: 219px;
+    }
+    .main-buttons__in-first-card{
+        position: relative;
+        width: 89px;
+        justify-content: flex-end;
+        margin-left: auto;
+        top: 5px;
+        right: 23px;
+        margin-right: 0px;
+    }
+    .secondarybuttons__in-first-card{
+        position: relative;
+        justify-content: flex-end;
+        margin-left:  0 auto;
+        top: 7px;
+        right: 13px;
+    }
+    .mainText-info-card__first{
+        width: 461px;
+        height: 93px;
+        margin-top: 0px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .text-info-card__first{
+        width: 461px;
+        height: 61px;
+        order: 4;
+        margin-top: 8px;
+    }
+    .overTime__info-card--first{
+        flex-direction: column;
+        margin-left: 0 auto;
+        order: 3;
+        width: 219px;
+    }
+    .publicationDate{
+        position: relative;
+        left: 20px;
+        width: 152px;
+    }
+    .iconCalendar__info-card{
+        display: block;
+        position: relative;
+        left: 160px;
+    }
+    .publicationTime{
+        position: relative;
+        display: flex;
+        left: 74px;
+        top: 10px;
+        margin-left: 25px;
+    }
+    .iconWatch__info-card{
+        position: relative;
+        margin-left: 0px;
+        left: 80px;
+    }
+   
+    .readingArticle__link{
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        top: 70px;
+        left: 6px;
+    }
+    .readingArticle__link:hover{
+        width: 222px;
+        color: #FCFAF9;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        top: 70px;
+        left: 5px;
+        font-family: "Nunito";
+        background-color: #1B1F21;
+        box-sizing: content-box;
+        border-radius: 40px;
+        font-size: 18px;
+        padding: 10px 0 10px 0;
+        line-height: 28px;
+        Box-shadow:0px 0px 0px 5px #1B1F21;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .readingArticle__link:focus{
+        width: 228px;
+        height: 32px;
+        color: #1B1F21;
+        position: relative;
+        border: solid 1.5px black;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        top: 67px;
+        left: 5px;
+        font-family: "Nunito";
+        background-color: #BEDB39;
+        box-sizing: content-box;
+        border-radius: 40px;
+        font-size: 18px;
+        padding: 12px 0 12px 0;
+        line-height: 28px;
+        Box-shadow:0px 0px 0px 0px #BEDB39;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line{
+        position: relative;
+        margin-top: 126px;
+        background: #ACD6DE;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        right: 200px;
+        top: 121px;
+        margin: 0 auto;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(-3deg);
+        margin-bottom: 201px;
+    }   
+    .creeping-line__in{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+    }
+    .creeping-line__item {
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .icon-stars__in-ticker{
+        position: relative;
+        top: 10px;
+        padding: 0 40px 0 40px;
+    }
+    .second-info-container{
+        margin: 0 auto;
+        position: relative;
+        top: 105px;
+        margin-left: 32px;
+        display: flex;
+    }
+    .info-card__item1{
+        width: 340px;
+        height: 555px;
+        margin-right: 24px;
+    }
+    .img-desktop2{
+        mask-image: url(/img/tablet-mask2.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__fushion{
+        position: relative;
+        bottom: 0px;
+        top: 9px;
+        right: 0;
+        left: -111px;
+        width: 104px;
+        height: 104px;   
+    }
+    .info-card__item2{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 526px;
+    }
+    .img__pos{
+        display: flex;
+        width: 340px;
+        height: 224px;
+    }
+    .img-desktop3{
+        mask-image: url(/img/tablet-mask3.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__diseno{
+        position: relative;
+        top: 9px;
+        left: -111px;
+        right: 0;
+        bottom: 10px;
+        width: 104px;
+        height: 104px; 
+    }
+    .info-card__item1__button{
+        margin-top: 24px;
+    }
+    .mainText-info-card__item{
+        width: 340px;
+        height: auto;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .text-info-card__item{
+        width: 340px;
+        height: auto;
+        font-size: 18px;
+    }
+    .text-info-card__item2{
+        width: 340px;
+        height: 116px;
+        font-size: 18px;
+        margin-top: 3px;
+        margin-bottom: 20px;
+    }
+    .overTime__info-card--first2{
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        height: 21px;
+        justify-content: space-between;
+    }
+    .textOverTime__info-card[data-block-type="second"]{
+        width: 152px;
+        height: auto;
+        margin-left: 2px;
+    }
+    
+    .publicationDate2{
+        position: relative;
+        left: 0px;
+        width: 152px;
+        bottom: 2px;
+        margin-left:6px;
+    }
+    .publicationTime2{
+        position: relative;
+        left: 0px;
+        width: 72px;
+        bottom: 2px;
+        margin-left: 26px;
+    }
+    .iconCalendar__info-card[data-block-type="second"]{
+        position: relative;
+        width: 17px;
+        height: 17px;
+        left: -4px;
+    }
+    .visibleTime__info-card{
+        width: auto;
+        margin: 0;
+    }
+    .iconWatch__info-card[data-block-type="second"]{
+        position: relative;
+        top: 0;
+        left: -8px;
+        right: 0;
+    }
+    /* 3ий блок */
+    .third-info-container{
+        width: 704px;
+        height: 559px;
+    }
+    .img-desktop4{
+        mask-image: url(/img/tablet-mask4.png);
+        position: relative;
+        width: 704px;
+        height: 320px;
+        left: 92px;
+        margin-top: 0px;
+        top: 62px;
+    }
+    .img-icon__diseno2{
+        position: relative;
+        top: 70px;
+        left: -36px;
+        bottom: 0px;
+        right: 50px;
+        width: 120px;
+        height: 120px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__diseno2:hover{
+       transform: rotate(360deg);
+    }
+    .img__pos-second{
+        display: flex;
+        width: auto;
+        height: 320px;
+    }
+    .info-card__second{
+        position: relative;
+        top: 83px;
+        left: 51px;
+        margin: 0 auto;
+        width: 702px;
+        height: 215px;
+    }
+    .info-card__button--second{
+        position: relative;
+        left: 14px;
+        justify-content: left;
+        min-width: 219px;
+        height: 144px;
+        margin-top: 2px;
+
+    }
+    .text-info-card__item--second{
+        width: 461px;
+        height: 215px;
+    }
+    .mainText-info-card__second{
+        font-size: 26px;
+        line-height: 32px;
+        width: auto;
+    }
+    .text-info-card__second{
+        width: 471px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    /* четвертый блок */
+    .fourth-info-container{
+        width: 704px;
+        height: 526px;
+        margin: 0px;
+        margin-top: 178px;
+        margin-left: 32px;
+    }
+    .img-desktop5{
+        mask-image: url(/img/tablet-mask5.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__marketing{
+        position: relative;
+        bottom: 0px;
+        right: 160px;
+        top: -10px;
+        min-width: 164px;
+        height: 124px;
+        margin: 0px;
+        padding: 0px;
+        transform: rotate(15deg);
+    }
+    .overTime__info-card--first[data-block-type="second"]{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        height: 21px;
+        justify-content: space-between;
+    }
+    .img-desktop6{
+        mask-image: url(/img/tablet-mask6.png);
+        min-width: 340px;
+        height: 224px;
+    }
+    .img-icon__software{
+        position: relative;
+        bottom: 0px;
+        top: 8px;
+        width: 104px;
+        right: 110px;
+        height: 104px;
+        transition: ease-in-out 1s;
+    }
+    .img-icon__software:hover{
+       transform: rotate(360deg);
+    }
+    .text-info-card__item[data-block-type="second"]{
+        margin-top: 3px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Webinars{
+        position: relative;
+        margin-top: 126px;
+        background: #FFAD20;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        right: 200px;
+        top: 216px;
+        margin: 0 auto;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(-3deg);
+        margin-bottom: 201px;
+    }   
+    .creeping-line__inWebinars{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+    }
+    .creeping-line__itemWebinars{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .WebinarsBlock{
+        position: relative;
+        bottom: 19px;
+        background-image:url(/img/bgForTablet.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: auto;
+        height: 1100px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .main-Webinars__block{
+        width: 768px;
+        height: 1066px;
+    }
+    .headWebinars__block{
+        width: 704px;
+        height: 64px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 88px;
+        margin-left: 33px;
+    }
+    .text-headWebinars__block{
+        font-family: "ArchivoBlack-Regular";
+        font-size: 28px;
+        font-weight: 400;
+        color: #FCFAF9;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .btn-Webinars__block{
+        font-family: "Nunito";
+        font-size: 18px;
+        font-weight: 400;
+        color: #FCFAF9;
+        background-color: #9853F4;
+        border-radius: 40px;
+        padding: 21px 63px 21px 64px;
+        border: none;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .cardsInWebinars__block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 63px;
+        margin-left: 33px;
+        width: 704px;
+        height: 697px;
+        flex-wrap: wrap;
+
+    }
+    .card-itemWebinars__block{
+        background-image: url(/img/LinebgForCard1.png);
+        background-position: right 105px;
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 371px;
+        background-color: #57ACBC;
+        margin: 0px;
+        margin-right: 24px;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;        
+    }
+    .card-itemWebinars__block:nth-child(2){
+        background-image: url(/img/LinebgForCard2.png);
+        background-position: right 0px;
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 371px;
+        background-color: #FE6D44;
+        margin: 0px;
+        display: flex;
+    }
+    .card-itemWebinars__block:nth-child(3){
+        background-image: url(/img/LinebgForCard3.png);
+        background-position: left 6px;
+        background-repeat: no-repeat;
+        width: 704px;
+        height: 272px;
+        background-color: #EF9700;
+        margin: 0px;
+        display: flex;
+    }
+    .workArea{
+        width: 292px;
+        height: auto;
+        margin: 24px;
+    }
+    .headInfoCard-item__inBlock{
+        width: 292px;
+        height: 64px;
+    }
+    .centralText__inBlock{
+        font-size: 24px;
+        width: 292px;
+        height: auto;
+        margin-bottom: 0px;
+        line-height: 29px;
+    }
+    .lowerArea{
+        margin-top: 55px;
+    }
+    .timeTextInCard__block{
+        min-width: 176px;
+    }
+    .img-desktop7{
+        mask-image: url(/img/Union.png);
+        min-width: 64px;
+        min-height: 64px;
+    }
+    .headInfoCard-item__inBlock[data-block-type="second"]{
+        height: 93px;
+    }
+    .nameHuman__inBlock[data-block-type="second"]{
+        margin-left: 10px;
+    }
+    .proffHuman_inBlock[data-block-type="second"]{
+        margin-left: 10px;
+    }
+    .lowerArea[data-block-type="second"]{
+        margin-top: 7px;
+    }
+    .timeTextInCard__block[data-block-type="second"]{
+        margin-left: 52px;
+    }
+
+    .img-desktop8{
+        mask-image: url(/img/Union.png);
+        min-width: 64px;
+        min-height: 64px;
+    }
+    .nameProff_inBlock[data-block-type="third"]{
+        width: 656px;
+        height: auto;
+    }
+    .nameHuman__inBlock[data-block-type="third"]{
+        width: 572px;
+        height: auto;
+    }
+    .centralText__inBlock[data-block-type="third"]{
+        width: 656px;
+        height: auto;
+    }
+    .lowerArea[data-block-type="third"]{
+        margin-top: 60px;
+    }
+    .dataTextInCard__block[data-block-type="third"]{
+        min-width: 200px;
+    }
+    .timeTextInCard__block[data-block-type="third"]{
+        position: relative;
+        left: 415px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Suscribiete{
+        position: relative;
+        bottom: 93px;
+        right: 200px;
+        margin: 0px;
+        background: #FE6D44;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+        transform: rotate(3deg);
+    }   
+    .creeping-line__inSuscribiete{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+    }
+    .creeping-line__itemSuscribiete{
+        font-family: "ArchivoBlack-Regular";
+        color: #1B1F21;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .main-container__Sub{
+        position: relative;
+        margin: 0 auto;
+        width: 704px;
+        height: 498px;
+        margin-top: 24px;
+        margin-bottom: 135px;
+        background-color: #FCFAF9;
+    }
+    .suscribe__block{
+        margin: 0;
+        position: relative;
+        display: flex;
+        mask-image: none;
+        background-image: url(/img/LinebgSuscribe.png);
+        background-position: 89px -47px;
+        background-repeat: no-repeat;
+        background-size: 989.47px 725.2px;
+        background-color: #57ACBC;
+        border-top-right-radius: 64px;
+        border-bottom-right-radius: 64px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 557px;
+        height: 498px;
+    }
+    .mainInfo-suscribe__block{
+        margin: 40px 145px 40px 25px;
+    }
+    .email-logoSuscribe__block{
+        position: relative;
+        background-image: url(/img/illustrationTablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: 121px;
+        min-width: 288px;
+        height: 498px;
+    }
+    .mainTextSuscribe__block{
+        font-family: "ArchivoBlack-Regular";
+        font-weight: 400;
+        font-size: 26px;
+        color: #FCFAF9;
+        line-height: 31px;
+        margin: 0;
+        width: 368px;
+        height: auto;
+    }
+    .textSuscribe__block{
+        font-family: "Nunito";
+        font-weight: 100;
+        color: #FCFAF9;
+        font-size: 17.9px;
+        line-height: 28.8px;
+        margin: 7px 0 0 0;
+        letter-spacing: 0px;
+        width: 368px;
+    }
+    .status-menuSuscribe__block{
+        display: block;
+    }
+    .mainFunc{
+        display: flex;
+        flex-direction: column;
+    }
+    .btnEmail__Suscribe__block{
+        margin-top: 18px;
+    }
+    .btn-input__Suscribe__block{
+        margin-top: 65px;
+    }
+    .btn-input__Suscribe__block:focus{
+        transition: 1s ease;
+        margin-top: 65px;
+        width: 232px;
+        height: 30px;
+        border: 1.5px solid rgb(0, 0, 0);
+        padding: 9px 22px 7px 24px;
+        border-radius: 88px;
+        background-color: transparent;
+        margin-right: 11px;
+        color: #FCFAF9;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Nunito";
+    }
+    .workingCondition{
+        width: 368px;
+        height: auto;
+    }
+    .userAgreement{
+        width: 316px;
+        height: auto;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .textError{
+        margin: 0px;
+        top: -130px;
+    }
+    .iconError{
+        top: -183px;
+    }
+    .iconOk{
+        top: -168px;    
+    }
+    .statusEnviado{
+        position: relative;
+        top: 130px;
+        width: 280px;
+        height: 114px;
+        border-radius: 24px;
+    }
+    .textStatus{
+        width: 142px;
+        height: 58px;
+        margin: 36px 24px 28px 24px;
+        font-size: 17px;
+    }
+    .icon-newSletter{
+        left: 190px;
+        top: -165px;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }  
+    .creeping-line__Descuento{
+        position: relative;
+        bottom: 28px;
+        right: 200px;
+        margin: 0px;
+        background: #DA3369;
+        font-family: system-ui;
+        font-size: 24px;
+        min-width:1279px;
+        height: 80px;
+        overflow: hidden;
+    }   
+    .creeping-line__inDescuento{
+        display: flex;
+        width: fit-content;
+        animation: ticker 4s linear infinite;
+    }
+    .creeping-line__itemDescuento{
+        font-family: "ArchivoBlack-Regular";
+        color: #F2F2F2;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    footer{
+        position: relative;
+        left: -275px;
+        width: 1279px;
+        height: auto;
+        background-color: #1B1F21;
+        top: -28px;
+    }
+    .main-container--footer__block{
+        position: relative;
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 65px 0 80px 0;
+        margin: auto;
+        margin-left: 275px;
+        width: 768px;
+        height: 672px;
+        background-color: #1B1F21;
+    }
+    .upInfo-container--footer__block{
+        width: 704px;
+        height: 144px;
+    }
+    .inUpInfo-container--footer__block{
+        width: 285px;
+        height: 144px;
+    }
+    .logo-container--footer__block{
+        display: flex;
+        justify-content: space-between;
+        width: 285px;
+        min-height: 144px;
+        margin-left: 32px;
+    }
+    .logoEbac_footer{
+        width: 173px;
+        height: 64px;
+    }
+    .logoHolon_footer{
+        padding: 2px 1px 0 0;
+        max-width: 64px;
+        max-height: 64px;
+    }
+    .menuFooter__block{
+        position: relative;
+        top: 235px;
+        right: 252px;
+        min-width: 704px;
+        height: 227px;
+        display: flex;
+        line-height: 21px;
+    }
+    .menuFooter__item{
+        margin: 0 45px 0 0;
+    }
+    .menuFooter__item:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        max-width: 104px;
+        height: auto;
+        margin: 0 70px 0 0;
+    }
+    .menuFooter__item:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-width: 152px;
+        margin: 0 70px 0 0;
+    }
+    .subscribeEmail_footer{
+        position: relative;
+        top: -142px;
+        bottom: 100px;
+        left: 456px;
+    }
+    .btnEmail__Suscribe__footer{
+        margin-top: 9px;
+    }
+    .btnEmail__Suscribe__footer:hover{
+        transition: 1s ease;
+        min-width: 281px;
+        min-height: 50px;
+        border: 1.5px solid rgb(0, 0, 0);
+        border-radius: 88px;
+        background-color: #DA3369;
+        color: #FCFAF9;
+        padding-left: 3px;
+        margin: 0 auto;
+        letter-spacing: 0.2px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Nunito";
+        cursor: pointer;
+    }
+    .lowInfo-container--footer__block{
+        width: 704px;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contactsCompany__block{
+        display: flex;
+        justify-content: space-between;
+        min-width: 569px;
+        height: 56px;   
+    }
+    .companyMessengers__block{
+        margin-top: 2px;
+        margin-left: 32px;
+        min-width: 569px;
+        height: 56px;
+        display: flex;
+    }
+    .companyMessengersIcon{
+        position: relative;
+        right: 976px;
+        top: -445px;
+        display: flex;
+        width: 200px;
+        height: 32px;
+        margin-top: 11px;
+    }
+    .privat{
+        display: flex;
+        position: relative;
+        top:4px;
+        left: 32px;
+        border-top: 1px solid #434343;
+        padding-top: 26px;
+    }
+}
