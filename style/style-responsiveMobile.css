@@ -945,5 +945,7 @@
     .textPrivat:nth-child(4){
         display: none;
     }
-
+    .contactsMessengers{
+        width: 173px;
+    }
 }

@@ -65,3 +65,9 @@ menuFooter__item.forEach(item => {
     content.classList.toggle('closed');
   });
 });
+
+LogRocket.identify('THE_USER_ID_IN_YOUR_APP', {
+  name: 'Artur',
+  email: 'artur.adamyan.16@mail.ru',
+  subscriptionType: 'pro'
+});

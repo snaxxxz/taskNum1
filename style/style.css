@@ -387,6 +387,9 @@ header.hidden {
     cursor: pointer;
     transition: 0.5s ease;
 }
+.readingArticle__link:disabled{
+    opacity: 0.7;
+}
 
 @keyframes ticker {
     0% { transform: translateX(0); }
@@ -894,16 +897,7 @@ header.hidden {
     cursor: pointer;
 }
 .btn-Webinars__block:disabled{
-    font-family: "Nunito";
-    font-size: 18px;
-    font-weight: 400;
-    color: #FCFAF9;
-    background-color: #9853F4;
-    border-radius: 40px;
-    padding: 21px 63px 21px 64px;
-    border: none;
-    transition: 0.5s ease;
-    cursor: pointer;
+    opacity: 0.7;
 }
 
 .cardsInWebinars__block{
@@ -1185,6 +1179,9 @@ input:focus{
     color: #FCFAF9;
     cursor: pointer;
 }
+.btnEmail__Suscribe__block:disabled{
+    opacity: 0.7;
+}
 .userAgreement{
     font-family: "Nunito";
     color:#FCFAF9;
@@ -1428,6 +1425,9 @@ footer{
     font-family: "Nunito";
     cursor: pointer;
 }
+.btnEmail__Suscribe__footer:disabled{
+    opacity: 0.7;
+}
 .menuFooter__block{
     width: 688px;
     height: 227px;
@@ -1590,4 +1590,7 @@ footer{
 }
 .accordion.closed{
     display: block;
+}
+.contactsMessengers:hover{
+    border-bottom:solid 1px white;
 }
