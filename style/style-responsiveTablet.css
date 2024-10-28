@@ -10,14 +10,14 @@
     .head{
         background-color: #FCFAF9;
         width: 704px;
-        height: auto;
+        height: 120px;
         margin: 0px;
         padding-top: 17px;
         padding-bottom: 16px;
         margin-left: 32px;
         display: block;
     }
-    #head_fixed{
+    header{
         z-index: 1000;
         position: fixed;
         top: 7px;
@@ -25,6 +25,9 @@
         height: 72px;
         margin: 0 auto;
         background-color: #FCFAF9;
+    }
+    header.hidden {
+        top: -140px; /* Скрываем хедер за пределы экрана */
     }
     .head_button{
         margin-top: 1px;
@@ -277,7 +280,6 @@
         display: flex;
         width: fit-content;
         animation: ticker 4s linear infinite;
-        -webkit-transform-style: preserve-3d;
     }
     .creeping-line__item {
         font-family: "ArchivoBlack-Regular";
@@ -287,7 +289,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
         white-space: nowrap;
-        -webkit-backface-visibility: hidden; 
     }
     .icon-stars__in-ticker{
         position: relative;
@@ -547,7 +548,6 @@
         display: flex;
         width: fit-content;
         animation: ticker 4s linear infinite;
-        -webkit-transform-style: preserve-3d;
     }
     .creeping-line__itemWebinars{
         font-family: "ArchivoBlack-Regular";
@@ -557,7 +557,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
         white-space: nowrap;
-        -webkit-backface-visibility: hidden; 
     }
     .WebinarsBlock{
         position: relative;
@@ -738,7 +737,6 @@
         display: flex;
         width: fit-content;
         animation: ticker 4s linear infinite;
-        -webkit-transform-style: preserve-3d;
     }
     .creeping-line__itemSuscribiete{
         font-family: "ArchivoBlack-Regular";
@@ -748,7 +746,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
         white-space: nowrap;
-        -webkit-backface-visibility: hidden; 
     }
     .main-container__Sub{
         position: relative;
@@ -893,7 +890,6 @@
         display: flex;
         width: fit-content;
         animation: ticker 4s linear infinite;
-        -webkit-transform-style: preserve-3d;
     }
     .creeping-line__itemDescuento{
         font-family: "ArchivoBlack-Regular";
@@ -903,7 +899,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
         white-space: nowrap;
-        -webkit-backface-visibility: hidden; 
     }
     footer{
         position: relative;
@@ -989,7 +984,6 @@
         transition: 1s ease;
         min-width: 281px;
         min-height: 50px;
-        margin-top: 9px;
         border: 1.5px solid rgb(0, 0, 0);
         border-radius: 88px;
         background-color: #DA3369;

@@ -1,18 +1,17 @@
-const header = document.getElementById('head');
-let previousScrollPosition = window.scrollY;
+const header = document.querySelector('header');
+let prevScrollpos = window.pageYOffset;
 
-// Проверка скролла
-window.addEventListener('scroll', () => {
-  const currentScrollPosition = window.scrollY;
+window.onscroll = function() {
+  const currentScrollPos = window.pageYOffset;
 
-  if (currentScrollPosition > previousScrollPosition) { // Скролл вниз
-    head.classList.add('hidden'); // Скрыть header
+  if (prevScrollpos > currentScrollPos) {
+    header.classList.remove('hidden');
   } else {
-    head.classList.remove('hidden'); // Показать header
+    header.classList.add('hidden');
   }
 
-  previousScrollPosition = currentScrollPosition; // Обновляем предыдущее положение скролла
-});
+  prevScrollpos = currentScrollPos;
+}
 
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

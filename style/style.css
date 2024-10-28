@@ -21,13 +21,7 @@ a{
     text-decoration: none;
     color: inherit; 
 }
-header{
-    width: 100%;
-    height: 72px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto; 
-}   
+
 .head{
     background-color: #FCFAF9;
     width: 1208px;
@@ -39,7 +33,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-#head_fixed{
+header{
     z-index: 1000;
     position: fixed;
     top: 7px;
@@ -49,14 +43,12 @@ header{
     justify-content: center;
     margin: 0 auto;
     background-color: #FCFAF9;
-}
-#head.show{
     opacity: 1;
+    transition: top 0.3s ease; /* Плавный переход для скрытия/появления */
 }
-#head.hidden{
-    opacity: 0;
+header.hidden {
+    top: -60px; /* Скрываем хедер за пределы экрана */
 }
-
 
 .main-logo__header{
     right: 0;
@@ -415,7 +407,6 @@ header{
     display: flex;
     width: fit-content;
     animation: ticker 4s linear infinite;
-    -webkit-transform-style: preserve-3d;
 }
 .creeping-line__item {
     font-family: "ArchivoBlack-Regular";
@@ -425,7 +416,6 @@ header{
     padding-top: 23px;
     padding-bottom: 10px;
     white-space: nowrap;
-    -webkit-backface-visibility: hidden; 
 }
 .icon-stars__in-ticker{
     padding: 0 40px 0 40px;
@@ -827,7 +817,6 @@ header{
     display: flex;
     width: fit-content;
     animation: ticker2 4s linear infinite;
-    -webkit-transform-style: preserve-3d;
 }
 .creeping-line__itemWebinars{
     font-family: "ArchivoBlack-Regular";
@@ -837,7 +826,6 @@ header{
     padding-top: 23px;
     padding-bottom: 10px;
     white-space: nowrap;
-    -webkit-backface-visibility: hidden; 
 }
 
 .WebinarsBlock{
@@ -1069,7 +1057,6 @@ header{
     display: flex;
     width: fit-content;
     animation: ticker3 4s linear infinite reverse;
-    -webkit-transform-style: preserve-3d;
 }
 .creeping-line__itemSuscribiete{
     font-family: "ArchivoBlack-Regular";
@@ -1079,7 +1066,7 @@ header{
     padding-top: 23px;
     padding-bottom: 10px;
     white-space: nowrap;
-    -webkit-backface-visibility: hidden; 
+
 }
 
 .main-container__Sub{
@@ -1322,7 +1309,7 @@ input[type="checkbox"]:checked {
     display: flex;
     width: fit-content;
     animation: ticker3 6s linear infinite reverse;
-    -webkit-transform-style: preserve-3d;
+ 
 }
 .creeping-line__itemDescuento{
     font-family: "ArchivoBlack-Regular";
@@ -1332,7 +1319,6 @@ input[type="checkbox"]:checked {
     padding-top: 23px;
     padding-bottom: 10px;
     white-space: nowrap;
-    -webkit-backface-visibility: hidden; 
 }
 /* подвал */
 footer{
