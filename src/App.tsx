@@ -116,17 +116,17 @@ function App() {
                     <path d="M98.4531 35.2824C98.4531 34.8066 98.0979 34.5617 97.522 34.5617C97.0358 34.5617 96.6013 34.7686 96.2669 35.0376L95.8013 34.3066C96.1772 33.979 96.8082 33.7031 97.591 33.7031C98.7669 33.7031 99.4393 34.3548 99.4393 35.3066V38.2824H98.4496V37.8169C98.191 38.2307 97.6393 38.3997 97.1738 38.3997C96.1565 38.3997 95.5634 37.8169 95.5634 36.9962C95.5634 36.1273 96.1772 35.6307 97.1738 35.6307H98.1324C98.36 35.6307 98.4496 35.5307 98.4496 35.3548V35.2824H98.4531ZM98.4531 36.648V36.2617C98.3634 36.3307 98.2048 36.3617 97.9772 36.3617H97.3841C96.86 36.3617 96.5944 36.5893 96.5944 36.9652C96.5944 37.31 96.8531 37.6273 97.3841 37.6273C97.9393 37.6238 98.4531 37.3376 98.4531 36.648Z" />
             </svg>
             <div className="linksHeader__block">
-              <a className='linkInBlock' href="">Diseño</a>
-              <a className='linkInBlock' href="">Programación & Data</a>
-              <a className='linkInBlock' href="">Gaming</a>
-              <a className='linkInBlock' href="">Marketing</a>
-              <a className='linkInBlock' href="">Software</a>
-              <a className='linkInBlock' href="">Carrera</a>
+              <a className='linkInBlock' href="#">Diseño</a>
+              <a className='linkInBlock' href="#">Programación & Data</a>
+              <a className='linkInBlock' href="#">Gaming</a>
+              <a className='linkInBlock' href="#">Marketing</a>
+              <a className='linkInBlock' href="#">Software</a>
+              <a className='linkInBlock' href="#">Carrera</a>
             </div>
             <div className="searchAndEback">
-              <img src="./src/images/search.png" alt="" className="iconSearch"/>
+              <img src="./public/images/search.png" alt="" className="iconSearch"/>
               <div className="ebac">EBAC</div>
-              <img src="./src/images/Arrow.png" alt="" className="linkArrow" />
+              <img src="./public/images/Arrow.png" alt="" className="linkArrow" />
             </div>
           </div>
       </header>

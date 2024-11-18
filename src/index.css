@@ -18,16 +18,16 @@ body{
   height: 3000px;
 }
 .header{
-  background-color: #e08558e5;
+  background-color: #FCFAF9E5;
   display: flex;
   justify-content: center;
   height: 72px;
-  border: solid 1px;
   transition: transform 0.3s ease; /* Анимация скрытия */
   z-index: 10;
   transform: translateY(-100%);
 }
 .header.scrolled {
+  background-color: #FCFAF9E5;
   position: fixed;
   top: 0;
   left: 0;
@@ -116,3 +116,4 @@ body{
   width: 16px;
   height: 16px;
 }
+
