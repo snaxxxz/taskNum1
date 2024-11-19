@@ -5,7 +5,7 @@ function ProductCard() {
 
 	return(
 		<>
-			
+			<div className="mainContainer">
 				<div className={styles.info__block}>
 					<div className={styles.inside__block}>
 						<div className={styles.images__block}>
@@ -58,7 +58,36 @@ function ProductCard() {
 						</div>
 					</div>
 				</div>
-			
+				
+			</div>
+			<div className={styles.ticker}>
+					<div className={styles.ticker__wrapper}>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+						<div className={styles.ticker__item}>
+							<h1>Artículos populares</h1>
+							<img src="./public/images/stars.png" alt="" />
+						</div>
+					</div>
+				</div>
 		</>
 	)
 }

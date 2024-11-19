@@ -10,14 +10,13 @@
 }
 
 /* product components */
+
+
 .info__block{
-  position: absolute;
-  top: 152px;
+  position: relative;
   width: 1208px;
   height: 560px;
-  left: 50%;
-  top: 152px;
-  transform: translate(-50%);
+  margin: 153px auto 127px auto;
 }
 .inside__block{
   display: flex;
@@ -36,7 +35,7 @@
 }
 .interactiveImages__block{
   position: absolute;
-  top: -0%;
+  top: 1px;
   left: 300px;
   width: 180px;
   height: 180px;  
@@ -138,6 +137,7 @@
   height: 21px;
 }
 .textTime{
+  font-family: "Nunito";
   color: #AEAEAE;
   font-size: 15px;
 }
@@ -176,4 +176,49 @@
 .cardBtn__block:focus .cardBtn__inBlock{
  border: none;
  transition: ease 300ms;
+}
+.ticker {
+  width: auto;
+  height: 120px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #ACD6DE;
+  transform: rotate(-4deg);
+}
+
+.ticker__wrapper {
+  display: flex;
+}
+
+.ticker__item {
+  display: flex;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 25px;
+  animation: ticker 5s linear infinite;
+}
+.ticker__item h1{
+  font-family: "ArchivoBlack-Regular";
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 500;
+}
+.ticker__item img{
+  padding-top: 20px;
+  margin: 0 45px 0 45px;
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
 }

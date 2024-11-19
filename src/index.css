@@ -15,9 +15,15 @@
 }
 body{ 
   background-color: #FCFAF9E5;
-  height: 3000px;
+  height: 2000px;
+
 }
 .header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #FCFAF9E5;
   display: flex;
   justify-content: center;
