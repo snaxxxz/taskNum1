@@ -147,6 +147,103 @@ function SecondProductCard() {
 						</div>
 					</div>
 				</div>
+				{/* 4sq */}
+				<div className={styles.copFirstInfo__block}>
+					<div className={styles.first_card__inBlock}>
+						<div className={styles.images__block}>
+							<img 
+							className={styles.fourf_mainImages} 
+							src="./public/images/img-desktop5.png" 
+							alt="" 
+							/>
+							<img 
+							className={styles.interactiveImages__block} 
+							src="./public/images/icon-fashion.png" 
+							alt="" 
+							/>
+						</div>
+						<div className={styles.textInfo__block}>
+							<div className={styles.first__textBlock}>
+								<div className={styles.four_link_block}>
+									<div className={styles.first_activelink}>
+											<a className={styles.itemLink} href="#">Marketing</a>
+									</div>
+									<div className={styles.first_links}>
+										<a className={styles.itemLink} href="#">Artículo</a>
+										<a className={styles.itemLink} href="#">Niños</a>
+										<a className={styles.itemLink} href="#">Proyecto</a>
+									</div>
+								</div>
+								<h4 className={styles.mainText__inBlock}>
+									Por qué algunas marcas fallan en el rebranding
+								</h4>
+							</div>
+							<div className={styles.second__textBlock}>
+								<p className={styles.text__block}>
+									As falhas de grandes marcas como Gap e Coca Cola explicadas.
+								</p>
+								<div className={styles.dateAndTime__block}>
+									<div className={styles.dateBlock}>
+										<img src="./public/images/icon-calendar.png" alt="" />
+										<p className={styles.textDate}>2 de junio de 2022</p>
+									</div>
+									<div className={styles.timeBlock}>
+									<img src="./public/images/icon-watch.png" alt="" />
+									<p className={styles.textTime}>10 min</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={styles.second_card__inBlock}>
+						<div className={styles.first_card__inBlock}>
+							<div className={styles.images__block}>
+								<img 
+								className={styles.fourS_mainImages}
+								src="./public/images/img-desktop6.png" 
+								alt="" 
+								/>
+								<img 
+								className={styles.interactiveImages__block}
+								src="./public/images/icon-diseno.png" 
+								alt="" 
+								/>
+							</div>
+							<div className={styles.textInfo__block}>
+								<div className={styles.first__textBlock}>
+									<div className={styles.four_link_block}>
+											<div className={styles.four_activelink}>
+													<a className={styles.itemLink} href="#">Software</a>
+											</div>
+											<div className={styles.links}>
+												<a className={styles.itemLink} href="#">Artículo</a>
+												<a className={styles.itemLink} href="#">Niños</a>
+												<a className={styles.itemLink} href="#">Proyecto</a>
+											</div>
+										</div>
+										<h4 className={styles.mainText__inBlock}>
+											¿Qué es AutoCAD y para qué sirve?
+										</h4>
+								</div>
+								<div className={styles.second__textBlock}>
+									<p className={styles.text__block}>
+										Unity te ofrece un gran abanico de posibilidades para desarrollar tu juego, darlo a conocer en todo el mundo, monetizar y triunfar por todo lo alto.
+									</p>
+									<div className={styles.dateAndTime__block}>
+										<div className={styles.dateBlock}>
+											<img src="./public/images/icon-calendar.png" alt="" />
+											<p className={styles.textDate}>2 de junio de 2022</p>
+										</div>
+										<div className={styles.timeBlock}>
+										<img src="./public/images/icon-watch.png" alt="" />
+										<p className={styles.textTime}>10 min</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</>
 	)

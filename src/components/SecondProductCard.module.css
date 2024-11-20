@@ -279,3 +279,72 @@
 	font-size: 18px;
 	line-height: 29px;
 }
+.copFirstInfo__block{
+	display: flex;
+	width: 1208px;
+	height: 627px;
+	margin-top: 136px;
+}
+.fourf_mainImages{
+	mask-image: url(./public/images/desktop-mask5.png);
+	width: 584px;
+	height: 328px;
+	object-fit: cover;
+  object-position: 0 -30px;
+}
+.fourS_mainImages{
+	mask-image: url(./public/images/desktop-mask6.png);
+	width: 584px;
+	height: 328px;
+	object-fit: cover;
+  object-position: 0 -30px;
+}
+.four_link_block{
+	display: flex;
+  width: auto;
+  height: auto;
+	text-decoration: none;
+}
+.four_link_block a{
+	text-decoration: none;
+}
+.four_activelink{
+	background-color: #ACD6DE;
+	font-family: "Nunito";
+  font-size: 15px;
+  line-height: 21px;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+	margin-right: 16px;
+}
+.four_activelink .itemLink{
+	color: #1B1F21;
+}
+.four_link_block .links a{
+	color: #57ACBC;
+}
+.first_activelink{
+	background-color: #FFAD20;
+	font-family: "Nunito";
+  font-size: 15px;
+  line-height: 21px;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+	margin-right: 16px;
+}
+.first_activelink a{
+	color: #1B1F21;
+}
+.first_links{
+	color: #EF9700;
+	display: flex;
+  justify-content: end;
+  font-family: "Nunito";
+  font-size: 15px;
+  line-height: 21px;
+  margin: auto 0;
+}
+.first_links a{
+  color: #EF9700;
+  padding-right: 10px;
+}
