@@ -157,8 +157,8 @@ function SecondProductCard() {
 							alt="" 
 							/>
 							<img 
-							className={styles.interactiveImages__block} 
-							src="./public/images/icon-fashion.png" 
+							className={styles.first_interactiveImages__block} 
+							src="./public/images/icon-marketing.png" 
 							alt="" 
 							/>
 						</div>
@@ -204,8 +204,8 @@ function SecondProductCard() {
 								alt="" 
 								/>
 								<img 
-								className={styles.interactiveImages__block}
-								src="./public/images/icon-diseno.png" 
+								className={styles.second_interactiveImages__block}
+								src="./public/images/icon-software.png" 
 								alt="" 
 								/>
 							</div>
