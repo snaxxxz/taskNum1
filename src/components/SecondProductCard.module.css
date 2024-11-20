@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Nunito";
+  src: url(./src/Шрифты/Nunito/Nunito-Medium.ttf);
+  margin: 0 auto;
+}
+@font-face{
+  font-family: "ArchivoBlack-Regular";
+  src: url(./src/Шрифты/ArchivoBlack-Regular/ArchivoBlack-Regular.ttf);
+  margin: 0 auto;
+}
+.info__block{
+	position: relative;
+  max-width: 1208px;
+  height: auto;
+  margin: 201px auto 127px auto;
+}
+.firstInfo__block{
+	display: flex;
+	width: 1208px;
+	height: 627px;
+
+}
+.first_card__inBlock{
+	width: 584px;
+	height: 627px;
+	margin-right: 40px;
+}
+.second_card__inBlock{
+	width: 584px;
+	height: 627px;
+}
+.images__block  {
+  display: flex;
+  flex-direction: column;
+}
+.mainImages{
+	mask-image: url(./public/images/desktop-mask2.png);
+	width: 584px;
+	height: 328px;
+	object-fit: cover;
+  object-position: 0 -30px;
+}
+.interactiveImages__block{
+	position: absolute;
+  top: -46px;
+  left: -40px;
+  width: 180px;
+  height: 180px;  
+  transition: ease-in-out 1.5s;
+}
+.textInfo__block{
+	display: flex;
+	flex-direction: column;
+	margin-top: 32px;
+	width: 584px;
+	height: 267px;
+}
+.link_block{
+  display: flex;
+  width: 277px;
+  height: auto;
+  justify-content: space-between;
+}
+.link_block a{
+  text-decoration: none;
+}
+.activelink{
+  font-family: "Nunito";
+  font-size: 15px;
+  line-height: 21px;
+  background-color: #90EECB;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+}
+.activelink a{
+  color: #1B1F21;
+}
+.links{
+  display: flex;
+  justify-content: end;
+  font-family: "Nunito";
+  font-size: 15px;
+  line-height: 21px;
+  margin: auto 0;
+}
+.links a{
+  color: #22C98B;
+  padding-right: 10px;
+}
+
+.links a:last-child{
+  padding: 0;
+}
+.mainText__inBlock{
+  font-family: "ArchivoBlack-Regular";
+  color: #1B1F21;
+  font-size: 30px;
+  line-height: 36px;
+  height: auto;
+  width: auto;
+  margin-top: 18px;
+}
+.text__block{
+	margin-top: 14px;
+	font-family: "Nunito";
+	font-size: 18px;
+	line-height: 29px;
+	color: #757778;
+	width: 480px;
+}
+.dateAndTime__block{
+	width: 248px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 18px;
+}
+.dateBlock{
+	display: flex;
+  justify-content: space-between;
+}
+.dateBlock img{
+	padding-top: 4px;
+	width: 17px;
+  height: 17px;
+}
+.textDate{
+  font-family: "Nunito";
+  color: #AEAEAE;
+  font-size: 15px;
+  padding-left: 8px;
+}
+.timeBlock{
+	display: flex;
+  justify-content: space-between;
+}
+.timeBlock img {
+  padding-right: 8px;
+  width: 17px;
+  height: 21px;
+}
+.textTime{
+  font-family: "Nunito";
+  color: #AEAEAE;
+  font-size: 15px;
+}
+.second_card__inBlock .mainImages{
+	mask-image: url(./public/images/desktop-mask3.png);
+	width: 584px;
+	height: 328px;
+	object-fit: cover;
+  object-position: 0 -30px;
+}
+.second_card__inBlock .interactiveImages__block{
+	left: 1067px;
+	top: -47px;
+}
+.second_card__inBlock .interactiveImages__block:hover{
+	transform: rotate(350deg);
+}
+.second_card__inBlock .link_block{
+	width: 272px;
+}
+.second_card__inBlock .activelink{
+	background-color: #EC95B1;
+}
+.second_card__inBlock .links a{
+	color: #DA3369;
+}
+.third_card__inBlock{
+	border: solid 1px;
+	margin-top: 136px;
+	width: 1208px;
+	height: 749px;
+}
