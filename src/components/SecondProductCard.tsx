@@ -103,17 +103,48 @@ function SecondProductCard() {
 				</div>
 				{/* 3bq */}
 				<div className={styles.third_card__inBlock}>
-					<div className={styles.images__block}>
+					<div className={styles.third_images__block}>
 						<img 
-						className={styles.mainImages} 
+						className={styles.third_mainImages} 
 						src="./public/images/img-desktop4.png" 
 						alt="" 
 						/>
 						<img 
-						className={styles.interactiveImages__block} 
+						className={styles.third_interactiveImages__block} 
 						src="./public/images/icon-diseno.png" 
 						alt="" 
 						/>
+					</div>
+					<div className={styles.mainTextInfo__block}>
+						<div className={styles.linkText__block}>
+							<div className={styles.third_linkBlock}>
+								<div className={styles.third_activelink}>
+										<a className={styles.itemLink} href="#">Diseño</a>
+								</div>
+								<div className={styles.links}>
+									<a className={styles.itemLink} href="#">Artículo</a>
+									<a className={styles.itemLink} href="#">Niños</a>
+									<a className={styles.itemLink} href="#">Proyecto</a>
+								</div>
+							</div>
+							<div className={styles.dateAndTime__block}>
+								<div className={styles.dateBlock}>
+									<p className={styles.third_textDate}>2 de junio de 2022</p>
+									<img src="./public/images/icon-calendar.png" alt="" />
+								</div>
+								<div className={styles.timeBlock}>
+									<p className={styles.third_textTime}>10 min</p>
+									<img src="./public/images/icon-watch.png" alt="" />
+								</div>
+							</div>
+						</div>
+						<div className={styles.thirdMainText__inBlock}>
+							<h3 className={styles.thirdMainText}>Todo lo que querías saber sobre Diseño UX / UI
+							</h3>
+							<p className={styles.thirdText}>
+								Aunque los conceptos de experiencia de usuario y desarrollo de 	interfaces han estado presentes durante décadas en numerosas 	industrias, muchas personas aún tienen dudas sobre lo que 	realmente hace un profesional en este campo. 
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
